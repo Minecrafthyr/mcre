@@ -1,4 +1,4 @@
-This page is for report issues or do other things. See main project on modrinth.
+Main project is on [Modrinth](https://modrinth.com/datapack/mc_remade).
 <details><summary>中文</summary>
 Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 
