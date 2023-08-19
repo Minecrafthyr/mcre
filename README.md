@@ -1,3 +1,4 @@
+This page is for report issues or do other things. See main project on modrinth.
 <details><summary>中文</summary>
 Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 
@@ -21,7 +22,7 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 - 食用发光浆果可以发光 4 秒
 - 使用腐肉有 75% 的概率剧毒 4 秒
 - 钓鱼竿（包括诡异菌或胡萝卜钓鱼竿）损毁会掉落 1 木棍
-
+- 在土径上玩家会走得更快
 # 修改
 
 ## 修改/维度类型
@@ -43,7 +44,7 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 
 - 更多生物会掉落骨头
 - 生物的掉落更加固定了（例如：牛现在会掉落一个生牛肉，一个皮革，一根骨头）
-
+- 坚守者掉落更多物品，概率掉落坚守、寂静盔甲纹饰模板
 ## 修改/配方
 
 由于配方过多，请自行使用 REI 等工具查阅。  
@@ -71,7 +72,7 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 - 只有远古残骸和下界合金块需要钻石制工具。
 - 只有钻石块、绿宝石块、黑曜石、哭泣的黑曜石、重生锚、紫水晶块需要铁制工具挖掘。
 - 只有铁质、铜质、深板岩质方块、深板岩矿石、强化深板岩需要石制工具挖掘。
-
+- 信标基座：新增铜块、氧化铜块。（包括打蜡的版本）
 ### 修改/标签/伤害类型
 
 - 大量可能对末影龙造成伤害的伤害类型现在总是会伤害末影龙。（未固定特性）
@@ -80,7 +81,7 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 ### 修改/标签/物品
 
 - 石质工具材料：燧石。
-
+- 激活信标：只能用钻石
 ## 修改/世界生成
 
 ### 修改/世界生成/配置地物
@@ -92,7 +93,7 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 ### 修改/世界生成/processor_list
 
 - 现在僵尸村庄有一半的可能被替换为空气，而不是蜘蛛网（原版全部替换为蜘蛛网）。
-
+- 村庄的道路被草方块替换的概率为原版的一半
 # 禁用
 
 ## 禁用/配方
@@ -102,9 +103,10 @@ Minecraft Remade 是一个注重对原版的调整和增加的数据包。
 - 禁用合成修补（在工作台或物品栏内进行合并物品的配方）。
 
 </details>
-Because description is too long, I used machine + manual translation here.
 
 <details><summary>English</summary>
+Because description is too long, I used machine + manual translation here.
+
 Minecraft Remade is a datapack that focus on tweaks and additions to the vanilla.
 
 Recommended mods: [Repurposed Structures](https://modrinth.com/mod/repurposed-structures-fabric "Modrinth (Mod)")(Compatible), [Tectonic](https://modrinth.com/datapack/tectonic "Modrinth (Datapack or Mod)")(Compatible), [Tinkerer's Smithing](https://modrinth.com/mod/tinkerers-smithing "Modrinth (Mod)")(A bit incompatible)
@@ -126,28 +128,28 @@ The following is an (incomplete) list of features:
 - Eating glowing berries glows for 4 seconds
 - Rotten flesh has 75% chance poisoned for 4 seconds.
 - Fishing rods (including warped fungus or carrot fishing rods) drop 1 stick when destroyed.
-
+- Players moves faster on dirt path
 ## Modification
 
 ## Modification/Dimension Type
 
 - The end: no raids now
 
-## Modification/loot tables
+## Modification/LootTables
 
 Due to the excessive amount of loot tables, please search them yourself using a tool such as RER.  
 Some of the features are listed here:
 
-### Modifications/Loot Tables/Blocks
+### Modifications/LootTables/Blocks
 
 - Ore will drop cobblestone.
-- Using silk touch now allows you to dig down more items such as budding amethyst.
+- Using silk touch now allows you to dig down more blocks such as budding amethyst.
 - Leaves now have a 50% chance of dropping saplings, 50% for sticks.
 
-### Modifications/Loot Table/Entities
+### Modifications/LootTables/Entities
 
-- More mobs drop bones
-- Creature drops are now more fixed (e.g. cows now drop a raw beef, a leather, and a bone)
+- More mobs drop a bone.
+- Creature drops are now more fixed (e.g. cows now drop a raw beef, a leather, and a bone).
 
 ### Modifications/Recipes
 
@@ -163,7 +165,7 @@ Some of the features are listed here:
 - Rails now craft by 6 iron nuggets + 3 sticks.
 - Duplicating smithing templates now only requires one diamond.
 
-### Modifications/Labels
+### Modifications/Tags
 
 ### Modifications/Tags/Blocks
 
@@ -176,15 +178,17 @@ Some of the features are listed here:
 - Only qncient debris and netherite blocks require diamond tools.
 - Only diamond blocks, emerald blocks, obsidian, Crying obsidian, respawn anchor, and amethyst blocks require Iron tools.
 - Only iron, copper, deepslate buliding blocks, deepslate ores, reinforced deepslate require stone tools.
+- Beacon base blocks: copper block, exposed copper block. (Include waxed)
 
 ### Modifications/Tags/DamageTypes
 
-- A large number of damage types that may could damage the Shadow Dragon will now always damage the Ender Dragon. (Unfixed Trait)
-- A large number of damage types now ignore damage cooldowns
+- A large number of damage types that may could damage the Shadow Dragon will now always damage the Ender Dragon. (Unfixed Featrue)
+- A large number of damage types now ignore damage cooldowns.
 
 ### Modifications/Tags/Items
 
 - Stone tool materials: flint.
+- Active beacon: diamond.
 
 ### Modifications/WorldGeneration
 
@@ -194,10 +198,10 @@ Some of the features are listed here:
 
 ### Modifications/WorldGeneration/ConfiguredFeatures
 
-### Modifications/WorldGeneration/Processor_list
+### Modifications/WorldGeneration/Processorlist
 
 - Zombie villages now have a half chance of being replaced with air instead of cobwebs (the vanilla replaced them all with cobwebs).
-
+- The chance that village's road replace by grass block is now 50% of vanilla
 ## Disable
 
 ## Disable/Recipe
@@ -205,7 +209,6 @@ Some of the features are listed here:
 - Crafting table make stone building blocks (including bricks, not mud bricks) - now only stonecutter can be used.
 - Smelt ores - can now only be smelted if the raw ore item is dug up first.
 - Disable crafting repair (recipes for merging items at the crafting table or in the inventory).
-
-Translated with www.DeepL.com/Translator (free version). Edit by Minecraft_hyr. (It keep the format, so I keep the text here)
+- Warden drops more items, with a probability of dropping the ward, silence armor trim templates
 
 </details>
