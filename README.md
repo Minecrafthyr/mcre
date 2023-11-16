@@ -1,1 +1,2 @@
-Main project is on [Modrinth](https://modrinth.com/datapack/mc_remade). This page is for report issue.
+[Github](https://github.com/Minecrafthyr/Minecraft-Remade)  
+[Modrinth](https://modrinth.com/datapack/mc_remade)
