@@ -1,1 +1,1 @@
-advancement revoke @s only mcre:functions/rc/carved_pumpkin
+advancement revoke @s only mcre:func/rc/carved_pumpkin

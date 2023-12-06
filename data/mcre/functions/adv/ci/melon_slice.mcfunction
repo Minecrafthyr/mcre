@@ -1,1 +1,1 @@
-advancement revoke @s only mcre:functions/ci/melon_slice
+advancement revoke @s only mcre:func/ci/melon_slice

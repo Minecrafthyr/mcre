@@ -1,2 +1,1 @@
-
-advancement revoke @s only mcre:functions/rc/separate/tnt_minecart
+advancement revoke @s only mcre:func/rc/separate/tnt_minecart

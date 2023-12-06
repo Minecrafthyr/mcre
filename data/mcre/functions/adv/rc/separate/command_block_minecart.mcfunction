@@ -1,1 +1,1 @@
-advancement revoke @s only mcre:functions/rc/separate/command_block_minecart
+advancement revoke @s only mcre:func/rc/separate/command_block_minecart

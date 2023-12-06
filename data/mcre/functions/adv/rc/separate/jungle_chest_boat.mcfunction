@@ -1,2 +1,1 @@
-
-advancement revoke @s only mcre:functions/rc/separate/jungle_chest_boat
+advancement revoke @s only mcre:func/rc/separate/jungle_chest_boat
