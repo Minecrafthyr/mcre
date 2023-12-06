@@ -1,0 +1,1 @@
+{"criteria":{"oak_chest_boat":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/oak_chest_boat"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/oak_chest_boat","loot": ["mcre:generic/chest"]}}

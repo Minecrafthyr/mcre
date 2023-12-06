@@ -1,0 +1,1 @@
+{"criteria":{"tnt_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/tnt_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/tnt_minecart","loot": ["mcre:generic/tnt"]}}

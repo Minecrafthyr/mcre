@@ -1,0 +1,1 @@
+{"criteria":{"bamboo_chest_raft":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/bamboo_chest_raft"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/bamboo_chest_raft","loot": ["mcre:generic/chest"]}}
