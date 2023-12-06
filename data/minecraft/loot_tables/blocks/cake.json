@@ -1,0 +1,1 @@
+{"pools":[{"entries":[{"conditions":[{"condition":"minecraft:survives_explosion"},{"block":"minecraft:cake","condition":"minecraft:block_state_property","properties":{"bites":"0"}}],"name":"minecraft:cake","type":"minecraft:item"}],"rolls":1}],"random_sequence":"minecraft:blocks/cake","type":"minecraft:block"}
