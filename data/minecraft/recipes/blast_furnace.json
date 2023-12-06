@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:smooth_stone"},"F":{"item":"minecraft:furnace"},"I":{"item":"minecraft:iron_ingot"}},"pattern":["I#I","#F#","I#I"],"result":{"item":"minecraft:blast_furnace"},"show_notification":true,"type":"minecraft:crafting_shaped"}

@@ -1,0 +1,1 @@
+{"category":"building","key":{"#":{"tag":"minecraft:wooden_slabs"},"X":{"item":"minecraft:book"}},"pattern":[" # ","XXX"," # "],"result":{"item":"minecraft:bookshelf"},"show_notification":true,"type":"minecraft:crafting_shaped"}

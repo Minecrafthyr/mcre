@@ -1,0 +1,1 @@
+{"category":"redstone","key":{"#":{"item":"minecraft:redstone_torch"},"I":{"item":"minecraft:smooth_stone_slab"},"X":{"item":"minecraft:quartz"}},"pattern":[" # ","#X#"," I "],"result":{"item":"minecraft:comparator"},"show_notification":true,"type":"minecraft:crafting_shaped"}
