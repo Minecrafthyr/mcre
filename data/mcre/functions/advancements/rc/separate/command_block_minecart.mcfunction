@@ -1,0 +1,1 @@
+advancement revoke @s only mcre:functions/rc/separate/command_block_minecart
