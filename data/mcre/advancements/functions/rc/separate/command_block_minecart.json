@@ -1,1 +1,1 @@
-{"criteria":{"command_block_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/command_block_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/command_block_minecart","loot": ["mcre:generic/command_block"]}}
+{"criteria":{"command_block_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/command_block_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:adv/rc/separate/command_block_minecart","loot": ["mcre:generic/command_block"]}}

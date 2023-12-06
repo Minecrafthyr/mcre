@@ -1,1 +1,1 @@
-{"criteria":{"spruce_chest_boat":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/spruce_chest_boat"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/spruce_chest_boat","loot": ["mcre:generic/chest"]}}
+{"criteria":{"spruce_chest_boat":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/spruce_chest_boat"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:adv/rc/separate/spruce_chest_boat","loot": ["mcre:generic/chest"]}}

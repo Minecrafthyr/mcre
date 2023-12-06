@@ -1,1 +1,1 @@
-{"criteria":{"chest_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/chest_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/chest_minecart","loot": ["mcre:generic/chest"]}}
+{"criteria":{"chest_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/chest_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:adv/rc/separate/chest_minecart","loot": ["mcre:generic/chest"]}}

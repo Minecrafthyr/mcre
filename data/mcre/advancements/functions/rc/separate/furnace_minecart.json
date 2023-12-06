@@ -1,1 +1,1 @@
-{"criteria":{"furnace_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/furnace_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/separate/furnace_minecart","loot": ["mcre:generic/furnace"]}}
+{"criteria":{"furnace_minecart":{"conditions":{"recipe_id":"mcre:crafting_shapeless/separate/furnace_minecart"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:adv/rc/separate/furnace_minecart","loot": ["mcre:generic/furnace"]}}
