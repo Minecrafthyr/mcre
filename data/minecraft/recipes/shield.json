@@ -1,0 +1,1 @@
+{"category":"equipment","key":{"O":{"item":"minecraft:iron_ingot"},"W":{"tag":"minecraft:planks"},"i":{"item":"minecraft:iron_nugget"}},"pattern":["iWO","iW ","iW "],"result":{"item":"minecraft:shield"},"show_notification":true,"type":"minecraft:crafting_shaped"}

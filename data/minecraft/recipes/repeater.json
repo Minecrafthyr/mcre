@@ -1,0 +1,1 @@
+{"category":"redstone","key":{"#":{"item":"minecraft:redstone_torch"},"I":{"item":"minecraft:smooth_stone_slab"},"X":{"item":"minecraft:redstone"}},"pattern":["#X#"," I "],"result":{"item":"minecraft:repeater"},"show_notification":true,"type":"minecraft:crafting_shaped"}
