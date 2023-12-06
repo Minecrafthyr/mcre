@@ -1,0 +1,1 @@
+{"criteria":{"glow_berries":{"conditions":{"item":{"items":["minecraft:melon_slice"]}},"trigger":"minecraft:consume_item"}},"rewards":{"function":"mcre:advancements/ci/melon_slice","loot": ["mcre:generic/melon_seeds"]}}

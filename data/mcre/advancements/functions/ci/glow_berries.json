@@ -1,0 +1,1 @@
+{"criteria":{"glow_berries":{"conditions":{"item":{"items":["minecraft:glow_berries"]}},"trigger":"minecraft:consume_item"}},"rewards":{"function":"mcre:advancements/ci/glow_berries"}}
