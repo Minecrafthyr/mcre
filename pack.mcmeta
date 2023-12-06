@@ -1,0 +1,179 @@
+{
+  "pack": {
+    "pack_format": 18,
+    "description": "Datapack v0.1.8",
+    "supported_formats": 18
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipes/white_wool_from_string.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/mossy_cobblestone_from_vine.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/mossy_stone_bricks_from_vine.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/coal_from_blasting_coal_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/coal_from_blasting_deepslate_coal_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/coal_from_smelting_coal_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/coal_from_smelting_deepslate_coal_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/copper_ingot_from_blasting_copper_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/copper_ingot_from_blasting_deepslate_copper_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/copper_ingot_from_smelting_copper_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/copper_ingot_from_smelting_deepslate_copper_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/diamond_from_blasting_deepslate_diamond_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/diamond_from_blasting_diamond_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/diamond_from_smelting_deepslate_diamond_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/diamond_from_smelting_diamond_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/emerald_from_blasting_deepslate_emerald_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/emerald_from_blasting_emerald_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/emerald_from_smelting_deepslate_emerald_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/emerald_from_smelting_emerald_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_blasting_deepslate_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_blasting_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_blasting_nether_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_smelting_deepslate_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_smelting_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/gold_ingot_from_smelting_nether_gold_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/iron_ingot_from_blasting_deepslate_iron_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/iron_ingot_from_blasting_iron_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/iron_ingot_from_smelting_deepslate_iron_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/iron_ingot_from_smelting_iron_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/lapis_lazuli_from_blasting_lapis_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/lapis_lazuli_from_smelting_lapis_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/redstone_from_blasting_deepslate_redstone_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/redstone_from_blasting_redstone_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/redstone_from_smelting_deepslate_redstone_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/redstone_from_smelting_redstone_ore.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/map_extending.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/stick_from_bamboo_item.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/rabbit_stew_from_red_mushroom.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/netherite_scrap_from_blasting.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/netherite_scrap.json"
+      }
+    ]
+  }
+}
