@@ -1,0 +1,1 @@
+{"category":"misc","group":"boat","key":{"#":{"item":"minecraft:oak_slab"},"S":{"item":"minecraft:wooden_shovel"}},"pattern":["S S","# #","###"],"result":{"item":"minecraft:oak_boat"},"show_notification":true,"type":"minecraft:crafting_shaped"}
