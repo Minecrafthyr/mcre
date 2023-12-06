@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:prismarine"},"C":{"item":"minecraft:diamond"},"S":{"item":"minecraft:prismarine_bricks"}},"pattern":["#S#","#C#","###"],"result":{"item":"minecraft:tide_armor_trim_smithing_template"},"show_notification":true,"type":"minecraft:crafting_shaped"}

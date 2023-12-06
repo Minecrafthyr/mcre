@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:mossy_cobblestone"},"C":{"item":"minecraft:diamond"},"S":{"item":"minecraft:moss_block"}},"pattern":["#S#","#C#","###"],"result":{"item":"minecraft:wild_armor_trim_smithing_template"},"show_notification":true,"type":"minecraft:crafting_shaped"}

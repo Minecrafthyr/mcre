@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:netherrack"},"C":{"item":"minecraft:diamond"},"S":{"item":"minecraft:bone_block"}},"pattern":["#S#","#C#","###"],"result":{"item":"minecraft:rib_armor_trim_smithing_template"},"show_notification":true,"type":"minecraft:crafting_shaped"}

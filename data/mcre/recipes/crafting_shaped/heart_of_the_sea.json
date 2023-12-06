@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:lapis_block"},"X":{"item":"minecraft:prismarine"}},"pattern":[" # ","#X#"," # "],"result":{"item":"minecraft:heart_of_the_sea"},"show_notification":true,"type":"minecraft:crafting_shaped"}

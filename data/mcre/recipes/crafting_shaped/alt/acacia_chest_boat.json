@@ -1,0 +1,1 @@
+{"category":"misc","group":"boat","key":{"#":{"item":"minecraft:acacia_slab"},"C":{"item":"minecraft:chest"},"S":{"item":"minecraft:wooden_shovel"}},"pattern":["S S","#C#","###"],"result":{"item":"minecraft:acacia_chest_boat"},"show_notification":true,"type":"minecraft:crafting_shaped"}

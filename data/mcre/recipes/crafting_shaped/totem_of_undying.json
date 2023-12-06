@@ -1,0 +1,1 @@
+{"category":"equipment","key":{"G":{"item":"minecraft:gold_block"},"e":{"item":"minecraft:emerald"},"g":{"item":"minecraft:gold_ingot"}},"pattern":["eGe","gGg"," g "],"result":{"item":"minecraft:totem_of_undying"},"show_notification":true,"type":"minecraft:crafting_shaped"}
