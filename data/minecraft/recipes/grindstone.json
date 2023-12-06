@@ -1,0 +1,1 @@
+{"category":"misc","key":{"#":{"item":"minecraft:iron_nugget"},"-":{"item":"minecraft:stone_slab"},"I":{"item":"minecraft:stick"},"O":{"tag":"minecraft:wooden_buttons"}},"pattern":[" # ","O-O","I#I"],"result":{"item":"minecraft:grindstone"},"show_notification":true,"type":"minecraft:crafting_shaped"}
