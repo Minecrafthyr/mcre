@@ -1,0 +1,1 @@
+{"pools":[{"entries":[{"conditions":[{"condition":"minecraft:killed_by_player"}],"functions":[{"entity":"this","function":"minecraft:fill_player_head"}],"name":"minecraft:player_head","type":"minecraft:item"}],"rolls":1.0}],"random_sequence":"minecraft:entities/player","type":"minecraft:entity"}
