@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:tnt",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "(unstable)","color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockStateTag:{unstable:\"true\"}}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:generic"
+}

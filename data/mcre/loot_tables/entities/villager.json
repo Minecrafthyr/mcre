@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "name": "minecraft:carrot",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "functions": [
+                    {
+                      "conditions": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "flags": {
+                              "is_on_fire": true
+                            }
+                          }
+                        }
+                      ],
+                      "function": "minecraft:furnace_smelt"
+                    },
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "name": "minecraft:potato",
+                  "type": "minecraft:item",
+                  "weight": 5
+                },
+                {
+                  "name": "minecraft:wheat_seeds",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:beetroot_seeds",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:pumpkin_seeds",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:torchflower_seeds",
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:pitcher_pod",
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "name": "minecraft:wheat",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:beetroot",
+                  "type": "minecraft:item",
+                  "weight": 5,
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:torchflower",
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "minecraft:pitcher_plant",
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "max": 3,
+                        "min": 1,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 3.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "mcre:entities/villager",
+  "type": "minecraft:entity"
+}
