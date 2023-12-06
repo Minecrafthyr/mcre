@@ -1,0 +1,1 @@
+{"criteria":{"carved_pumpkin":{"conditions":{"recipe_id":"mcre:stonecutting/carved_pumpkin"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/carved_pumpkin","loot": ["mcre:generic/4_pumpkin_seeds"]}}

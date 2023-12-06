@@ -1,0 +1,1 @@
+{"criteria":{"flint_from_cobblestone":{"conditions":{"recipe_id":"mcre:crafting_shapeless/flint_from_cobblestone"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/flint_from_cobblestone"}}

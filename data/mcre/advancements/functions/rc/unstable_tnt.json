@@ -1,0 +1,1 @@
+{"criteria":{"unstable_tnt":{"conditions":{"recipe_id":"mcre:smithing_transform/unstable_tnt"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/unstable_tnt","loot": ["mcre:generic/unstable_tnt"]}}

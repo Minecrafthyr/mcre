@@ -1,0 +1,1 @@
+{"criteria":{"flint_from_cobbled_deepslate":{"conditions":{"recipe_id":"mcre:crafting_shapeless/flint_from_cobbled_deepslate"},"trigger":"minecraft:recipe_crafted"}},"rewards":{"function":"mcre:advancements/rc/flint_from_cobbled_deepslate"}}
