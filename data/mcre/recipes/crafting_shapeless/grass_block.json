@@ -1,1 +1,1 @@
-{"group":"block","ingredients":[{"item":"minecraft:dirt"},{"item":"minecraft:grass"}],"result":{"item":"minecraft:grass_block"},"type":"minecraft:crafting_shapeless"}
+{"group":"block","ingredients":[{"item":"minecraft:dirt"},{"item":"minecraft:short_grass"}],"result":{"item":"minecraft:grass_block"},"type":"minecraft:crafting_shapeless"}

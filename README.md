@@ -22,7 +22,7 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 ### functions
 
-~~_I separate most of the functions into another datapack. You will see it soon._~~ I decide to separate functions into a number of datapacks and reformat it. So you may not see them soon :(
+I decide to separate most of functions into a number of datapacks and reformat it. So you may not see them soon :(
 
 #### recipes
 
@@ -98,12 +98,12 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
   - gravel + clay => dirt
   - sand + mud => dirt
   - dirt + brown_mushroom => mycelium
-  - dirt + grass => grass_block
+  - dirt + short_grass => grass_block
   - dirt + hanging_roots => rooted_dirt
   - paper + piglin_head => piglin_banner_pattern
   - netherrack + warped_root => warped_nylium
   - iron_nugget + echo_shard => disc_fragment_5
-  - tall_grass => grass \*2
+  - tall_grass => short_grass \*2
   - large_fern => fern \*2
   - melon => melon_slice \*8
   - redstone => red_dye
@@ -138,7 +138,7 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 #### recipes
 
-- logs can craft only 1 planks
+- #logs => planks \*1
 - planks + leather => crafting_table
 - wheat as food in vanilla recipes is replaced by wheat_seeds
 - wooden_pressure_plates => paper
@@ -160,7 +160,7 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 - Crops drops are more science (I think..?)
 - Ores drops with Cobblestone(Cobbled Deepslate)
 - ancient_debris drops netherite_scarp
-- (tall)grass/(large)fern drops 4 types of seed
+- (short/tall)grass/(large)fern drops 4 types of seed
 - Add special loot for sand-like blocks and gravel
 
 #### tags
@@ -250,7 +250,7 @@ Blocks:
   replace:false, leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
 - mineable/hoe: cobweb, #froglights, cactus, melon(stem), (carved)pumpkin(stem)(jack_o_lantern), dripleaf(stem)s, chorus_plant, cocoa, mushroom(block)s, lily_pad, nether_wart, sugar_cane, sweet_berry_bush, vine, sea_pickle, mangrove_roots
   <details><summary>Not important</summary>
-  dead_bush, (large)fern, glow_lichen, (tall)grass, hanging_roots, #saplings, #crops, (tall)seagrass, kelp(plant), cave_vines(plant), twisting_vines(plant), fungus, weeping_vines(plant), #flowers, (crimson/warped)roots, nether_sprouts
+  dead_bush, (large)fern, glow_lichen, (short/tall)grass, hanging_roots, #saplings, #crops, (tall)seagrass, kelp(plant), cave_vines(plant), twisting_vines(plant), fungus, weeping_vines(plant), #flowers, (crimson/warped)roots, nether_sprouts
   </details>
 - mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
 - mineable/shovel: powder_snow
@@ -292,4 +292,7 @@ Blocks:
 - [Pickaxe Effective Reinforced Deepslate [PurpurPack]](https://modrinth.com/datapack/purpurpacks-pickaxe-effective-reinforced-deepslate)
 - [True Survival](https://modrinth.com/datapack/true-survival)
 - [Silktouchless Ender Chests](https://modrinth.com/datapack/silktouchless-ender-chests)
+- [Enhancer](https://modrinth.com/mod/enhancer-mod)
 - ...
+
+### Update plans

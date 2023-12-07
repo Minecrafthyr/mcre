@@ -1,0 +1,1 @@
+- [Better Hoes](https://modrinth.com/datapack/better-hoes) by [TheEnderCore](https://modrinth.com/user/TheEnderCore)
