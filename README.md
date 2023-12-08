@@ -4,17 +4,13 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 - Author: Minecraft_hyr
 - Version: 0.1.8
-- Supported MC versions: 1.20.2
+- Supported MC versions: 1.20.2-1.20.4
 
 ## Dependencies
 
 ### Optional
 
 - [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)
-
-### Embedded
-
-- [Di Library](https://modrinth.com/datapack/dilib)
 
 ## Feature list (904 files)
 
@@ -23,32 +19,33 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 ### functions
 
 I decide to separate most of functions into a number of datapacks and reformat it. So you may not see them soon :(
+- Consume melon_slice gives you a melon_seed
+- Consume glow_berries gives you glowing effect for 10 seconds
 
 #### recipes
 
-- You can blast some smelt recipe
+- Blasting more smelts
 - You can smelting/blasting Raw Ore Block
 - Crafting shapeless:
   - cobblestone + cobblestone => cobblestone + 20% chance flint (not preview-able)
   - cobbled_deepslate + cobbled_deepslate => cobbled_deepslate + 40% chance flint (not preview-able)
-  - chest_boat => boat + chest (not preview-able)
+  - ... Boat with the Chest => boat + chest (not preview-able)
   - ... minecart => minecart + ... (not preview-able)
   - tnt + tripwire_hook => unstable tnt (not preview-able)
-- You cutting planks / stripping logs in stonecutter
+- Cutting #planks / logs in stonecutter
 
 <details>
-
-### functions
-
-- consume melon_slice gives you a melon_seed
 
 #### recipes
 
 - Crafting shaped
-  - golden_apple + gold_block \*8 => enchanted golden apple
-  - emerald \*2 + gold_block \*2 + gold_ingot \*3 => totem of undying
+  - golden_apple + gold_block \*8 => enchanted_golden_apple
+  - emerald \*2 + gold_block \*2 + gold_ingot \*3 => totem_of_undying
   - string + phantom_membrane \*6 => elytra
   - blackstone + gold_nugget \*8 => gilded_blackstone
+  - bones *8 => skeleton_skull
+  - skeleton_skull + wither_rose *8 => wither_skull 
+  - skeleton_skull + rotten_flesh *8 => zombie_head
   - ...
 - Smelting 200t / Blasting 100t:
   - glow_ink_sac / glow_berries => glowstone_dust + 0.1 exp
@@ -82,7 +79,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - snow_block => snow \*8
   - honeycomb_block => honeycomb \*4
   - soul_soil => soul_sand \*1
-  - pottery_sherd => Any pottery_sherd \*1
+  - brick => Any pottery_sherd \*1
   - tuff => gravel \*2
   - sandstone => sand \*2
   - red_sandstone => red_sand \*2
@@ -93,7 +90,6 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - white_dye => light_gray_dye
   - light_gray_dye => gray_dye
   - gray_dye => black_dye
-- skull/wither_skull/zombie_head recipe
 - Crafting shapeless:
   - gravel + clay => dirt
   - sand + mud => dirt
@@ -102,6 +98,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - dirt + hanging_roots => rooted_dirt
   - paper + piglin_head => piglin_banner_pattern
   - netherrack + warped_root => warped_nylium
+  - netherrack + crimson_root => crimson_nylium
   - iron_nugget + echo_shard => disc_fragment_5
   - tall_grass => short_grass \*2
   - large_fern => fern \*2
@@ -112,7 +109,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - snow_block => snowball \*8
   - snow \*8 => snow_block
   - dead_bush => stick
-  - vine/weeping_vines/twisting_vines => string
+  - #vine => string
   - #wool => string \*9
   - beetroot => sugar
   - chorus_fruit => ender_pearl
@@ -138,20 +135,20 @@ I decide to separate most of functions into a number of datapacks and reformat i
 
 #### recipes
 
-- #logs => planks \*1
+- #logs => planks
 - planks + leather => crafting_table
 - wheat as food in vanilla recipes is replaced by wheat_seeds
-- wooden_pressure_plates => paper
+- #wooden_pressure_plates => paper
 - Duplicate smithing_template now cost 1 diamond
 - stick =smelting 200t / blasting 100t / campfire_cooking 600t> torch
-- 4\* red_dye + 2\* paper + 3\* gunpowder =crafting_shaped> tnt
+- red_dye \*4 + paper \*2 + gunpowder \*3 =crafting_shaped> tnt
 
 #### loot_tables
 
 - Leaves drops:
 
   - stick: 2 weight
-  - sapling: 1 weight (mangrove_leaves turn this weight into stick)
+  - #sapling: 1 weight (mangrove_leaves turn this weight into stick)
   - air: 2 weight
   - \*: _Decayed mangrove_leaves won't drop anything for saving performance_
 
@@ -159,8 +156,8 @@ I decide to separate most of functions into a number of datapacks and reformat i
 - Drop it self with silk_touch: budding_amethyst
 - Crops drops are more science (I think..?)
 - Ores drops with Cobblestone(Cobbled Deepslate)
-- ancient_debris drops netherite_scarp
-- (short/tall)grass/(large)fern drops 4 types of seed
+- ancient_debris drops netherite_scarp, works with fortune
+- (short/tall)grass/(large)fern drops 4 types of seeds
 - Add special loot for sand-like blocks and gravel
 
 #### tags
@@ -185,19 +182,19 @@ Blocks:
   - red_sand + red_sand => red_sandstone
   - stone + quartz => diorite
   - diorite + quartz => granite
-- clay / bricks-like block require 8 ingredients as ingredient / to un-craft / drop 8 ingredients
+- clay / bricks-like block (require 8 items as ingredient / to un-craft / drop 8 item)
 - Crafting shaped
   - carrot + gold_ingot \*4 => golden_carrot
-  - wool + stick => banner
+  - #wool + stick => #banner
   - heart_of_the_sea + nautilus_shell => conduit
   - obsidian \*3 + book + redstone_block + diamond \*2 => enchanting_table
   - amethyst_shard \*4 + ender_eye + glass \*3 + ghast_tear => end_crystal
-  - slab \*5(raft: 3) + wooden_shovel \*2 as boat
+  - #slabs \*5(raft: 3) + wooden_shovel \*2 => boat
   - iron_ingot \*5 => hopper
   - string \*5 => lead
 - Better redstone block**s** recipes
 - Crafting shapeless
-  - shapeless rail
+  - better rail recipe
   - stick \*6 => ladder
   - milk_bucket + sweet_berries + sugar + bread + egg => cake
   - iron_ingot, iron_nugget \*3, planks \*3 => shield
@@ -214,18 +211,18 @@ Blocks:
 #### loot_tables
 
 - Little tweaks to archaeology
-- Full bee_nest/beehive drop honeycomb
+- Full bee_nest/beehive drops honeycomb
 - cake drop it self when no bite
-- bookshelf drop it self
+- bookshelf drops it self
 - melon drop it self when not axe
-- chorus_flower drop chorus_fruit / silk_touch drop chorus_flower
-- chorus_plant drop nothing / silk_touch drop chorus_plant
-- jungle_temple_dispenser possible drops poison arrow
-- village-like mobs drops emerald
-- sniffer drops moss_block
-- snow_golem drops carved_pumpkin if it's equipping.
+- chorus_flower drop chorus_fruit / silk_touch drop itself
+- chorus_plant drop nothing / silk_touch drop itself
+- jungle_temple_dispenser possibly drop poison/harming tipped_arrow
+- villager-like mobs drops emerald
+- sniffer drop moss_block
+- snow_golem drop carved_pumpkin if it's pumpkined
 - Some mobs drops smithing_template
-- player drop player_head when killed by player (Unfixed feature)
+- player drop a player_head
 - twisting_vine & weeping_vine always drop itself
 - sliver_fish drop iron_nugget
 
@@ -238,19 +235,21 @@ Items:
 
 Blocks:
 
-- beacon_base_blocks: (waxed) copper_block
+- beacon_base_blocks: (waxed_)copper_block
 - dampens_vibrations: #beds
-- enderman_holdable: suspicious(gravel/sand), cobweb, soul(sand/soil), snow
+- enderman_holdable: suspicious_(gravel/sand), cobweb, soul_(sand/soil), snow
 - needs_stone_tool: iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks (replaced)
 - needs_iron_tool: diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst (replaced)
 - needs_diamond_tool: netherite_block, ancient_debris (replaced)
 - snow_layer_cannot_survive_on: #ice, spawner, barrier (replaced)
-- sword_efficient: cactus, hay_block, mushroom_block, (tall)seagrass, kelp(plant), bee_nest/beehive, sculk_vein, glow_lichen (replaced)
+- sword_efficient: cactus, hay_block, mushroom_block, (tall_)seagrass, kelp(_plant), bee_nest, beehive, sculk_vein, glow_lichen (replaced)
 - mineable/axe:  
-  replace:false, leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
-- mineable/hoe: cobweb, #froglights, cactus, melon(stem), (carved)pumpkin(stem)(jack_o_lantern), dripleaf(stem)s, chorus_plant, cocoa, mushroom(block)s, lily_pad, nether_wart, sugar_cane, sweet_berry_bush, vine, sea_pickle, mangrove_roots
+  leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
+- mineable/hoe: cobweb, #froglights, cactus, melon(_stem), (carved_)pumpkin(_stem), jack_o_lantern, dripleaf(_stem)s, chorus_plant, cocoa, mushroom(_block)s, lily_pad, nether_wart, sugar_cane, sweet_berry_bush, vine, sea_pickle, mangrove_roots
   <details><summary>Not important</summary>
-  dead_bush, (large)fern, glow_lichen, (short/tall)grass, hanging_roots, #saplings, #crops, (tall)seagrass, kelp(plant), cave_vines(plant), twisting_vines(plant), fungus, weeping_vines(plant), #flowers, (crimson/warped)roots, nether_sprouts
+  
+  dead_bush, (large)fern, glow_lichen, (short/tall)grass, hanging_roots, #saplings, #crops, (tall)seagrass, kelp(plant), cave_vines(plant), twisting_vines(plant), fungus, weeping_vines(plant), #flowers, (crimson/warped)roots, nether_sprouts 
+
   </details>
 - mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
 - mineable/shovel: powder_snow
