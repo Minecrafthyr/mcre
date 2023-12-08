@@ -12,6 +12,10 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 - [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)
 
+### Embedded
+
+- [Better Hoes](https://modrinth.com/datapack/better-hoes)
+
 ## Feature list (904 files)
 
 ### New (368 files)
@@ -235,23 +239,17 @@ Items:
 
 Blocks:
 
-- beacon_base_blocks: (waxed_)copper_block
-- dampens_vibrations: #beds
-- enderman_holdable: suspicious_(gravel/sand), cobweb, soul_(sand/soil), snow
-- needs_stone_tool: iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks (replaced)
-- needs_iron_tool: diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst (replaced)
-- needs_diamond_tool: netherite_block, ancient_debris (replaced)
-- snow_layer_cannot_survive_on: #ice, spawner, barrier (replaced)
-- sword_efficient: cactus, hay_block, mushroom_block, (tall_)seagrass, kelp(_plant), bee_nest, beehive, sculk_vein, glow_lichen (replaced)
-- mineable/axe:  
-  leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
-- mineable/hoe: cobweb, #froglights, cactus, melon(_stem), (carved_)pumpkin(_stem), jack_o_lantern, dripleaf(_stem)s, chorus_plant, cocoa, mushroom(_block)s, lily_pad, nether_wart, sugar_cane, sweet_berry_bush, vine, sea_pickle, mangrove_roots
-  <details><summary>Not important</summary>
-  
-  dead_bush, (large)fern, glow_lichen, (short/tall)grass, hanging_roots, #saplings, #crops, (tall)seagrass, kelp(plant), cave_vines(plant), twisting_vines(plant), fungus, weeping_vines(plant), #flowers, (crimson/warped)roots, nether_sprouts 
-
-  </details>
-- mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
+- beacon_base_blocks: `(waxed_)copper_block`
+- dampens_vibrations: `#beds`
+- enderman_holdable: `suspicious_(gravel/sand), cobweb, soul_(sand/soil), snow`
+- needs_stone_tool: `iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks` (replaced)
+- needs_iron_tool: `diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst` (replaced)
+- needs_diamond_tool: `netherite_block, ancient_debris` (replaced)
+- snow_layer_cannot_survive_on: `#ice, spawner, barrier` (replaced)
+- sword_efficient: `cactus, hay_block, mushroom_block, (tall_)seagrass, kelp(_plant), bee_nest, beehive, sculk_vein, glow_lichen` (replaced)
+- mineable/axe: `leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights`
+- mineable/hoe: `attached_melon_stem, attached_pumpkin_stem, beetroots, big_dripleaf_stem, big_dripleaf, carrots, carved_pumpkin, cave_vines_plant, cave_vines, chorus_flower, chorus_plant, cocoa, brown_mushroom_block, brown_mushroom, dead_bush, fern, glow_lichen, short_grass, hanging_roots, jack_o_lantern, melon_stem, melon, mushroom_stem, lily_pad, large_fern, nether_wart, potatoes, pumpkin_stem, pumpkin, red_mushroom_block, red_mushroom, small_dripleaf, spore_blossom, sugar_cane, sweet_berry_bush, tall_grass, twisting_vines_plant, twisting_vines, vine, warped_fungus, weeping_vines_plant, weeping_vines, wheat, azalea, crimson_fungus, #flowers, crimson_roots, warped_roots, nether_sprouts, sea_pickle, #saplings, #crops`
+  - mineable/pickaxe: `beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights`
 - mineable/shovel: powder_snow
 
 </details>
