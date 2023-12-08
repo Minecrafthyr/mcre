@@ -23,6 +23,7 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 ### functions
 
 I decide to separate most of functions into a number of datapacks and reformat it. So you may not see them soon :(
+
 - Consume melon_slice gives you a melon_seed
 - Consume glow_berries gives you glowing effect for 10 seconds
 
@@ -47,9 +48,9 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - emerald \*2 + gold_block \*2 + gold_ingot \*3 => totem_of_undying
   - string + phantom_membrane \*6 => elytra
   - blackstone + gold_nugget \*8 => gilded_blackstone
-  - bones *8 => skeleton_skull
-  - skeleton_skull + wither_rose *8 => wither_skull 
-  - skeleton_skull + rotten_flesh *8 => zombie_head
+  - bones \*8 => skeleton_skull
+  - skeleton_skull + wither_rose \*8 => wither_skull
+  - skeleton_skull + rotten_flesh \*8 => zombie_head
   - ...
 - Smelting 200t / Blasting 100t:
   - glow_ink_sac / glow_berries => glowstone_dust + 0.1 exp
@@ -154,7 +155,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - stick: 2 weight
   - #sapling: 1 weight (mangrove_leaves turn this weight into stick)
   - air: 2 weight
-  - \*: _Decayed mangrove_leaves won't drop anything for saving performance_
+  - \*: \_Decayed mangrove_leaves won't drop anything for saving performance\_
 
 - More mobs drops bone, leather
 - Drop it self with silk_touch: budding_amethyst
@@ -239,17 +240,17 @@ Items:
 
 Blocks:
 
-- beacon_base_blocks: `(waxed_)copper_block`
-- dampens_vibrations: `#beds`
-- enderman_holdable: `suspicious_(gravel/sand), cobweb, soul_(sand/soil), snow`
-- needs_stone_tool: `iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks` (replaced)
-- needs_iron_tool: `diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst` (replaced)
-- needs_diamond_tool: `netherite_block, ancient_debris` (replaced)
-- snow_layer_cannot_survive_on: `#ice, spawner, barrier` (replaced)
-- sword_efficient: `cactus, hay_block, mushroom_block, (tall_)seagrass, kelp(_plant), bee_nest, beehive, sculk_vein, glow_lichen` (replaced)
-- mineable/axe: `leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights`
-- mineable/hoe: `attached_melon_stem, attached_pumpkin_stem, beetroots, big_dripleaf_stem, big_dripleaf, carrots, carved_pumpkin, cave_vines_plant, cave_vines, chorus_flower, chorus_plant, cocoa, brown_mushroom_block, brown_mushroom, dead_bush, fern, glow_lichen, short_grass, hanging_roots, jack_o_lantern, melon_stem, melon, mushroom_stem, lily_pad, large_fern, nether_wart, potatoes, pumpkin_stem, pumpkin, red_mushroom_block, red_mushroom, small_dripleaf, spore_blossom, sugar_cane, sweet_berry_bush, tall_grass, twisting_vines_plant, twisting_vines, vine, warped_fungus, weeping_vines_plant, weeping_vines, wheat, azalea, crimson_fungus, #flowers, crimson_roots, warped_roots, nether_sprouts, sea_pickle, #saplings, #crops`
-  - mineable/pickaxe: `beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights`
+- beacon_base_blocks: (waxed\_)copper_block
+- dampens_vibrations: #beds
+- enderman_holdable: suspicious\_(gravel/sand), cobweb, soul\_(sand/soil), snow
+- needs_stone_tool: iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks (replaced)
+- needs_iron_tool: diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst (replaced)
+- needs_diamond_tool: netherite_block, ancient_debris (replaced)
+- snow_layer_cannot_survive_on: #ice, spawner, barrier (replaced)
+- sword_efficient: cactus, hay_block, mushroom_block, (tall\_)seagrass, kelp(\_plant), bee_nest, beehive, sculk_vein, glow_lichen (replaced)
+- mineable/axe: leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
+- mineable/hoe: attached\_(melon/pumpkin)\_stem, beetroots, big_dripleaf_stem, big_dripleaf, carrots, carved_pumpkin, cave_vines(\_plant), chorus_flower, chorus_plant, cocoa, brown_mushroom_block, brown_mushroom, dead_bush, fern, glow_lichen, short_grass, hanging_roots, jack_o_lantern, melon, mushroom_stem, lily_pad, large_fern, nether_wart, potatoes, pumpkin, red_mushroom_block, red_mushroom, small_dripleaf, spore_blossom, sugar_cane, sweet_berry_bush, tall_grass, twisting_vines_plant, twisting_vines, vine, warped_fungus, weeping_vines_plant, weeping_vines, wheat, azalea, crimson_fungus, #flowers, crimson_roots, warped_roots, nether_sprouts, sea_pickle, #saplings, #crops
+- mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
 - mineable/shovel: powder_snow
 
 </details>
@@ -290,6 +291,7 @@ Blocks:
 - [True Survival](https://modrinth.com/datapack/true-survival)
 - [Silktouchless Ender Chests](https://modrinth.com/datapack/silktouchless-ender-chests)
 - [Enhancer](https://modrinth.com/mod/enhancer-mod)
+- [hoes need love too](https://modrinth.com/datapack/hoes-need-love-too)
 - ...
 
 ### Update plans
