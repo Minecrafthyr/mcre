@@ -291,7 +291,6 @@ Blocks:
 - [True Survival](https://modrinth.com/datapack/true-survival)
 - [Silktouchless Ender Chests](https://modrinth.com/datapack/silktouchless-ender-chests)
 - [Enhancer](https://modrinth.com/mod/enhancer-mod)
-- [hoes need love too](https://modrinth.com/datapack/hoes-need-love-too)
 - ...
 
 ### Update plans
