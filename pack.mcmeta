@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 18,
-    "description": "Datapack v0.1.8",
-    "supported_formats": 18
+    "pack_format": 26,
+    "description": "Datapack v0.1.9",
+    "supported_formats": 26
   },
   "filter": {
     "block": [

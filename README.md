@@ -3,8 +3,8 @@
 A balanced **900+ files** datapack that tweaks to vanilla and adds lots of features.
 
 - Author: Minecraft_hyr
-- Version: 0.1.8
-- Supported MC versions: 1.20.2-1.20.4
+- Version: 0.1.9
+- Supported MC versions: 1.20.4
 
 ## Dependencies
 
