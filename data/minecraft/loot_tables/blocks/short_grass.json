@@ -34,7 +34,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:fern",
+              "name": "minecraft:short_grass",
               "type": "minecraft:item"
             },
             {
@@ -103,6 +103,6 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/fern",
+  "random_sequence": "minecraft:blocks/short_grass",
   "type": "minecraft:block"
 }

@@ -39,13 +39,50 @@
                   "weight": 19
                 },
                 {
-                  "name": "minecraft:poisonous_potato",
+                  "functions": [
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:binomial_with_bonus_count",
+                      "function": "minecraft:apply_bonus",
+                      "parameters": {
+                        "extra": 3,
+                        "probability": 0.5714286
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{CustomModelData:400000}"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "name": {
+                        "type": "translatable",
+                        "translate": "item.minecraft.poisonous_potato",
+                        "italic": false
+                      }
+                    }
+                  ],
+                  "name": "minecraft:potato",
                   "type": "minecraft:item"
                 }
               ],
               "type": "minecraft:group"
             },
             {
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400000}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "type": "translatable",
+                    "translate": "item.minecraft.poisonous_potato",
+                    "italic": false
+                  }
+                }
+              ],
               "conditions": [
                 {
                   "block": "minecraft:potatoes",
@@ -55,7 +92,7 @@
                   }
                 }
               ],
-              "name": "minecraft:poisonous_potato",
+              "name": "minecraft:potato",
               "type": "minecraft:item"
             },
             {

@@ -294,3 +294,8 @@ Blocks:
 - ...
 
 ### Update plans
+
+- Juice
+- Way to store experience
+- Way to transport
+- Sieve ?

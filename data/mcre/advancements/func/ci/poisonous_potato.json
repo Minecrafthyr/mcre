@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "glow_berries": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potato"
+          ],
+          "nbt": "{CustomModelData:400000}"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/ci/poisonous_potato"
+  }
+}
