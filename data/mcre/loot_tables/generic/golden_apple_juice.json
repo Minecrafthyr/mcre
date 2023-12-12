@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:potion",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mcre.golden_apple_juice",
+                "fallback": "Golden Apple Juice",
+                "italic": false,
+                "color": "#55ffff"
+              }
+            },
+            {
+              "__comment": "CustomPotionColor:[196,196,80]",
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:12895312,custom_potion_effects:[{ambient:0b,amplifier:3,duration:1,id:\"minecraft:saturation\"},{ambient:0b,amplifier:1,duration:1200,id:\"minecraft:absorption\"},{ambient:0b,amplifier:3,duration:50,id:\"minecraft:regeneration\"}]}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:generic"
+}

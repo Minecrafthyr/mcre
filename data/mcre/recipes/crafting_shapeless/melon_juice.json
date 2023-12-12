@@ -1,0 +1,15 @@
+{
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

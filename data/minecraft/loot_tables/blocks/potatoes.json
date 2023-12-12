@@ -48,41 +48,15 @@
                         "extra": 3,
                         "probability": 0.5714286
                       }
-                    },
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:400000}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "type": "translatable",
-                        "translate": "item.minecraft.poisonous_potato",
-                        "italic": false
-                      }
                     }
                   ],
-                  "name": "minecraft:potato",
+                  "name": "minecraft:poisonous_potato",
                   "type": "minecraft:item"
                 }
               ],
               "type": "minecraft:group"
             },
             {
-              "functions": [
-                {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:400000}"
-                },
-                {
-                  "function": "minecraft:set_name",
-                  "name": {
-                    "type": "translatable",
-                    "translate": "item.minecraft.poisonous_potato",
-                    "italic": false
-                  }
-                }
-              ],
               "conditions": [
                 {
                   "block": "minecraft:potatoes",
@@ -92,7 +66,7 @@
                   }
                 }
               ],
-              "name": "minecraft:potato",
+              "name": "minecraft:poisonous_potato",
               "type": "minecraft:item"
             },
             {

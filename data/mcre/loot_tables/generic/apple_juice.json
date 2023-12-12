@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:potion",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mcre.apple_juice",
+                "fallback": "Apple Juice",
+                "italic": false
+              }
+            },
+            {
+              "__comment": "CustomPotionColor:[180,180,96]",
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:11842656,custom_potion_effects:[{ambient:0b,amplifier:3,duration:1,id:\"minecraft:saturation\"},{ambient:0b,amplifier:0,duration:50,id:\"minecraft:regeneration\"}]}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:generic"
+}

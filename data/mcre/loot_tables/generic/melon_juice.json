@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:potion",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mcre.melon_juice",
+                "fallback": "Melon Juice",
+                "italic": false
+              }
+            },
+            {
+              "__comment": "CustomPotionColor:[243,100,48]",
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:15950896,custom_potion_effects:[{ambient:0b,amplifier:0,duration:50,id:\"minecraft:regeneration\"}]}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:generic"
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "carved_pumpkin": {
+      "conditions": {
+        "recipe_id": "mcre:crafting_shapeless/golden_apple_juice"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/rc/golden_apple_juice",
+    "loot": [
+      "mcre:generic/golden_apple_juice"
+    ]
+  }
+}

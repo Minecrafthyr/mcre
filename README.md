@@ -2,9 +2,10 @@
 
 A balanced **900+ files** datapack that tweaks to vanilla and adds lots of features.
 
-- Author: Minecraft_hyr
-- Version: 0.1.9
-- Supported MC versions: 1.20.4
+- Version number: 0.1.9
+- Game versions: 1.20.3-1.20.4
+- Author: [Minecraft_hyr](https://github.com/Minecrafthyr)
+- Project Links: [Modrinth](https://modrinth.com/datapack/Minecraft-Remade), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
 
 ## Dependencies
 
@@ -18,7 +19,7 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 ## Feature list (904 files)
 
-### New (368 files)
+### Additions (368 files)
 
 ### functions
 
@@ -38,6 +39,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - ... minecart => minecart + ... (not preview-able)
   - tnt + tripwire_hook => unstable tnt (not preview-able)
 - Cutting #planks / logs in stonecutter
+- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice (for normal food, it adds regeneration effect. for (enchanted\_)golden_apple, effects duration is divide by 2 and effects amplifier is multiply by 2)
 
 <details>
 
@@ -151,12 +153,10 @@ I decide to separate most of functions into a number of datapacks and reformat i
 #### loot_tables
 
 - Leaves drops:
-
   - stick: 2 weight
   - #sapling: 1 weight (mangrove_leaves turn this weight into stick)
   - air: 2 weight
-  - \*: \_Decayed mangrove_leaves won't drop anything for saving performance\_
-
+  - \*: _Decayed mangrove_leaves won't drop anything for saving performance_
 - More mobs drops bone, leather
 - Drop it self with silk_touch: budding_amethyst
 - Crops drops are more science (I think..?)
@@ -177,6 +177,12 @@ Blocks:
 - infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
 
 <details>
+
+### advancements
+
+Husbandry:
+
+- plant_seed (Seedy place) icon is wheat_seeds now
 
 #### recipes
 
@@ -225,7 +231,7 @@ Blocks:
 - jungle_temple_dispenser possibly drop poison/harming tipped_arrow
 - villager-like mobs drops emerald
 - sniffer drop moss_block
-- snow_golem drop carved_pumpkin if it's pumpkined
+- snow_golem drop carved_pumpkin if it's wearing a pumpkin
 - Some mobs drops smithing_template
 - player drop a player_head
 - twisting_vine & weeping_vine always drop itself
@@ -267,7 +273,7 @@ Blocks:
 
 ### Disables
 
-- Ores (With Stone) smelting/blasting
+- Ores (Within Stone) smelting/blasting
 - Line crafts White wool
 - mossy_cobblestone_from_vine and mossy_stone_bricks_from_vine
 - Map extending on crafting_table
@@ -295,7 +301,5 @@ Blocks:
 
 ### Update plans
 
-- Juice
 - Way to store experience
-- Way to transport
 - Sieve ?

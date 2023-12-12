@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "shovels": {
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "c:shovels"
+            }
+          }
+        },
+        "damage": {
+          "blocked": false
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "shovel_stun:player_hurt_entity"
+  }
+}

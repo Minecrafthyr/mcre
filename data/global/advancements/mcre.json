@@ -7,12 +7,7 @@
   "display": {
     "announce_to_chat": false,
     "description": [
-      "A balanced ",
-      {
-        "bold": true,
-        "text": "900+ files"
-      },
-      " datapack that tweaks to vanilla and adds lots of features."
+      "A large, balanced datapack that tweaks to vanilla and adds lots of features."
     ],
     "icon": {
       "item": "minecraft:crafting_table"
@@ -20,5 +15,5 @@
     "show_toast": false,
     "title": "Minecraft Remade"
   },
-  "parent": "dilib:dilib"
+  "parent": "global:dilib"
 }
