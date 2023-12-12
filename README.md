@@ -39,7 +39,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - ... minecart => minecart + ... (not preview-able)
   - tnt + tripwire_hook => unstable tnt (not preview-able)
 - Cutting #planks / logs in stonecutter
-- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice (for normal food, it adds regeneration effect. for (enchanted\_)golden_apple, effects duration is divide by 2 and effects amplifier is multiply by 2)
+- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice (for normal item, it adds regeneration effect. for (enchanted\_)golden_apple, effects duration is divide by 2 and effects amplifier is multiply by 2)
 
 <details>
 
@@ -74,7 +74,6 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - pumpkin => carved_pumpkin \*1 + pumpkin_seeds \*4 (not preview-able)
   - stone => cobblestone \*1
   - deepslate => cobbled_deepslate \*1
-  - tuff => gravel \*1
   - magma_block => magma_cream \*4
   - dripstone_block => pointed_dripstone \*4
   - prismarine => prismarine_shard \*9
