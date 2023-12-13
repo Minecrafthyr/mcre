@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "spectral_arrow_glowing:tick",
+    "arrow_enhance:tick",
     "shovel_stun:tick"
   ]
 }

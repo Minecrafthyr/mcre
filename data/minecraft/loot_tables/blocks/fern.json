@@ -38,8 +38,31 @@
               "type": "minecraft:item"
             },
             {
-              "name": "mcre:generic/seeds",
-              "type": "minecraft:loot_table"
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:wheat_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:melon_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:pumpkin_seeds"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:beetroot_seeds"
+                }
+              ],
+              "type": "minecraft:group"
             }
           ],
           "type": "minecraft:alternatives"

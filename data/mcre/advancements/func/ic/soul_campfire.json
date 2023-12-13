@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "campfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_campfire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/ic/soul_campfire"
+  }
+}

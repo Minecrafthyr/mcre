@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "campfire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:campfire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/ic/campfire"
+  }
+}
