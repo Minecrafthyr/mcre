@@ -21,40 +21,19 @@
                   }
                 }
               ],
-              "children": [
+              "functions": [
                 {
-                  "functions": [
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:binomial_with_bonus_count",
-                      "function": "minecraft:apply_bonus",
-                      "parameters": {
-                        "extra": 3,
-                        "probability": 0.5714286
-                      }
-                    }
-                  ],
-                  "name": "minecraft:potato",
-                  "type": "minecraft:item",
-                  "weight": 19
-                },
-                {
-                  "functions": [
-                    {
-                      "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:binomial_with_bonus_count",
-                      "function": "minecraft:apply_bonus",
-                      "parameters": {
-                        "extra": 3,
-                        "probability": 0.5714286
-                      }
-                    }
-                  ],
-                  "name": "minecraft:poisonous_potato",
-                  "type": "minecraft:item"
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:binomial_with_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "extra": 3,
+                    "probability": 0.5714286
+                  }
                 }
               ],
-              "type": "minecraft:group"
+              "name": "mcre:blocks/potatoes",
+              "type": "minecraft:loot_table"
             },
             {
               "conditions": [

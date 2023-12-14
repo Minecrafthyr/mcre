@@ -213,6 +213,8 @@ Husbandry:
   - blocks need 1 dye to dye
   - bone/nautilus_shell => bone_meal
   - piston + slime_ball => sticky_piston
+  - stick \*4 + #coals => campfire
+  - stick \*4 + #soul_fire_base_blocks => soul_campfire
 - dried_kelp cooking time is 50% of vanilla
 - Tweaked smelting/blasting raw resource experience
 - Stonecutting

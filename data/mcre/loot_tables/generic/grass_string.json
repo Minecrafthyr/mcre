@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400001}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "item.mcre.grass_string",
+                "fallback": "Grass String",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:string",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:block"
+}

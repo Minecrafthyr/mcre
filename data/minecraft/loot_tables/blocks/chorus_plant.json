@@ -1,1 +1,27 @@
-{"pools":[{"bonus_rolls":0.0,"entries":[{"children":[{"conditions":[{"condition":"minecraft:match_tool","predicate":{"enchantments":[{"enchantment":"minecraft:silk_touch","levels":{"min":1}}]}}],"name":"minecraft:chorus_plant","type":"minecraft:item"}],"type":"minecraft:alternatives"}],"rolls":1.0}],"random_sequence":"minecraft:blocks/chorus_plant","type":"minecraft:block"}
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "mcre:tool/silk_touch_or_shear"
+                }
+              ],
+              "name": "minecraft:chorus_plant",
+              "type": "minecraft:item"
+            }
+          ],
+          "type": "minecraft:alternatives"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/chorus_plant",
+  "type": "minecraft:block"
+}

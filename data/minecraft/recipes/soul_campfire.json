@@ -1,1 +1,25 @@
-{"category":"misc","ingredients":[{"item":"minecraft:soul_torch"},{"item":"minecraft:soul_torch"},{"item":"minecraft:soul_torch"},{"item":"minecraft:soul_torch"}],"result":{"item":"minecraft:soul_campfire"},"show_notification":true,"type":"minecraft:crafting_shapeless"}
+{
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:soul_campfire"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shapeless"
+}
