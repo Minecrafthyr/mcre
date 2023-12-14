@@ -1,6 +1,6 @@
 # Minecraft Remade
 
-A balanced **900+ files** datapack that tweaks to vanilla and adds lots of features.
+A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
 - Version number: 0.1.9
 - Game versions: 1.20.3-1.20.4
@@ -17,9 +17,22 @@ A balanced **900+ files** datapack that tweaks to vanilla and adds lots of featu
 
 - [Better Hoes](https://modrinth.com/datapack/better-hoes)
 
-## Feature list (904 files)
+## Feature list (921 files)
 
-### Additions (368 files)
+**Important!** The things you need to know in early survival:
+
+1. Crafting table recipe is:
+
+   | Crafting   |
+   | ---------- |
+   | leather    |
+   | any planks |
+
+2. Flint: can be find by digging gravel / use 2 cobblestone craft 1 cobblestone with 20% chance to drop flint.
+
+3. Stone tools needs flint as ingredient.
+
+### Additions (378 files)
 
 ### functions
 
@@ -28,9 +41,10 @@ I decide to separate most of functions into a number of datapacks and reformat i
 - Consume melon_slice gives you a melon_seed
 - Consume glow_berries gives you glowing effect for 10 seconds
 
+
 #### recipes
 
-- Blasting more smelts
+- Blasting more smelt-able items
 - You can smelting/blasting Raw Ore Block
 - Crafting shapeless:
   - cobblestone + cobblestone => cobblestone + 20% chance flint (not preview-able)
@@ -41,7 +55,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
 - Cutting #planks / logs in stonecutter
 - apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice (for normal item, it adds regeneration effect. for (enchanted\_)golden_apple, effects duration is divide by 2 and effects amplifier is multiply by 2)
 
-<details>
+<details><summary style="font-size:18px">Details</summary>
 
 #### recipes
 
@@ -137,7 +151,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
 
 </details>
 
-### Modifications (536 files)
+### Modifications (543 files)
 
 #### recipes
 
@@ -163,6 +177,7 @@ I decide to separate most of functions into a number of datapacks and reformat i
 - ancient_debris drops netherite_scarp, works with fortune
 - (short/tall)grass/(large)fern drops 4 types of seeds
 - Add special loot for sand-like blocks and gravel
+- Campfire is unlit by default, silk_touch can copy the unlit state
 
 #### tags
 
@@ -175,7 +190,7 @@ Blocks:
 - infiniburn_overworld: magma_block (replaced)
 - infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
 
-<details>
+<details><summary style="font-size:18px">Details</summary>
 
 ### advancements
 
@@ -303,4 +318,4 @@ Blocks:
 ### Update plans
 
 - Way to store experience
-- Sieve ?
+- Sieve ? (I think only scaffolding like this, but needs to change texture because bamboo is not a very common item let us craft it.)

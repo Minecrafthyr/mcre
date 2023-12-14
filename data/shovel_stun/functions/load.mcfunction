@@ -1,1 +1,0 @@
-execute unless data storage shovel_stun:data {version:0} run function shovel_stun:load/

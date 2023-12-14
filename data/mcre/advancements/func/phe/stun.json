@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "shovel_stun:player_hurt_entity"
+    "function": "mcre:adv/phe/stun"
   }
 }
