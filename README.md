@@ -2,12 +2,15 @@
 
 A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
-- Version number: 0.1.9
+- Version number: 0.2.0
 - Game versions: 1.20.3-1.20.4
 - Author: [Minecraft_hyr](https://github.com/Minecrafthyr)
 - Project Links: [Modrinth](https://modrinth.com/datapack/Minecraft-Remade), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
 
 ## Dependencies
+
+### Required
+
 
 ### Optional
 
