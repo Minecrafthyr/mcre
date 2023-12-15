@@ -11,7 +11,6 @@ A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
 ### Required
 
-
 ### Optional
 
 - [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)
@@ -43,7 +42,6 @@ I decide to separate most of functions into a number of datapacks and reformat i
 
 - Consume melon_slice gives you a melon_seed
 - Consume glow_berries gives you glowing effect for 10 seconds
-
 
 #### recipes
 
@@ -289,6 +287,7 @@ Blocks:
 - higher ore redstone
 - more redstone/quartz
 - zombie village has no crops
+- decrease patch_dead_bush_badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913) 
 
 ### Disables
 
@@ -321,4 +320,13 @@ Blocks:
 ### Update plans
 
 - Way to store experience
-- Sieve ? (I think only scaffolding like this, but needs to change texture because bamboo is not a very common item let us craft it.)
+- Sieve ? (I think only scaffolding like that, but needs to change texture because bamboo is not a very common item let us craft it.)
+
+### The story of this project
+
+This project is planned 3 years ago, that time I can feel Minecraft is not balanced, but I don't know how to modify Minecraft elements.  
+So, I started to study how to made a datapack, a simple way to modify Minecraft.  
+Then I created this project, change and add lots of files to make Minecraft more realistic.  
+I did it a few months ago, even did some mod-supports, but there are too many (1000+) files, makes me nervous if the project is balanced.  
+Then I review and rewrite the whole project. I've learned a lot of new things during rewriting.  
+That's Minecraft Remade today you see.

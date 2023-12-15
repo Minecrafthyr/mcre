@@ -32,8 +32,18 @@
                   }
                 }
               ],
-              "name": "mcre:blocks/potatoes",
-              "type": "minecraft:loot_table"
+              "entries": [
+                {
+                  "name": "minecraft:potato",
+                  "type": "minecraft:item",
+                  "weight": 19
+                },
+                {
+                  "name": "minecraft:poisonous_potato",
+                  "type": "minecraft:item"
+                }
+              ],
+              "type": "minecraft:group"
             },
             {
               "conditions": [

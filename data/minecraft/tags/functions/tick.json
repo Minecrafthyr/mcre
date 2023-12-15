@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "arrow_enhance:tick",
-    "shovel_stun:tick"
+    "mcre:tick"
   ]
 }

@@ -1,0 +1,2 @@
+schedule function mcre:5t 2t
+execute as @e[type=!#dilib:non_living/commands,type=!minecraft:player,predicate=mcre:entity/on/block/blocks/magenta_glazed_terracotta] run function mcre:5t/on/magenta_glazed_terracotta
