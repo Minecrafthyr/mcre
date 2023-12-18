@@ -5,7 +5,7 @@ A large, balanced datapack that tweaks to vanilla and adds lots of features.
 - Version number: 0.2.0
 - Game versions: 1.20.3-1.20.4
 - Author: [Minecraft_hyr](https://github.com/Minecrafthyr)
-- Project Links: [Modrinth](https://modrinth.com/datapack/Minecraft-Remade), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
+- Project Links: [Modrinth](https://modrinth.com/datapack/mcre), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
 
 ## Dependencies
 
@@ -315,6 +315,7 @@ Blocks:
 - [True Survival](https://modrinth.com/datapack/true-survival)
 - [Silktouchless Ender Chests](https://modrinth.com/datapack/silktouchless-ender-chests)
 - [Enhancer](https://modrinth.com/mod/enhancer-mod)
+- [Stonecutter Damage](https://modrinth.com/datapack/stonecutter-damage)
 - ...
 
 ### Update plans
@@ -330,3 +331,16 @@ Then I created this project, change and add lots of files to make Minecraft more
 I did it a few months ago, even did some mod-supports, but there are too many (1000+) files, makes me nervous if the project is balanced.  
 Then I review and rewrite the whole project. I've learned a lot of new things during rewriting.  
 That's Minecraft Remade today you see.
+
+### Mojang is bad on math
+
+So here are some examples that shows Mojang's bad math:
+
+- blocks *6 =crafting_shaped> stairs *4
+- bamboo *2 =crafting_shaped> stick  
+  bamboo *9 =crafting_shaped> bamboo_block  
+  bamboo_block =crafting_shapeless> bamboo_planks *2  
+  bamboo_planks *2 =crafting_shaped> stick *4
+
+- snow (8 layer) loot: => snowball *8, =silk_touch> snow_block
+  snow_block loot: => snowball *4, =silk_touch> snow_block

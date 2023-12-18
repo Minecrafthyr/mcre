@@ -1,1 +1,17 @@
-{"category":"misc","key":{"#":{"item":"minecraft:snow_block"}},"pattern":["##"],"result":{"count":16,"item":"minecraft:snow"},"show_notification":true,"type":"minecraft:crafting_shaped"}
+{
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 16,
+    "item": "minecraft:snow"
+  },
+  "show_notification": true,
+  "type": "minecraft:crafting_shaped"
+}
