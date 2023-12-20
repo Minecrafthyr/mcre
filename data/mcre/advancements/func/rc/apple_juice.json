@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "carved_pumpkin": {
+    "apple_juice": {
       "conditions": {
         "recipe_id": "mcre:crafting_shapeless/apple_juice"
       },

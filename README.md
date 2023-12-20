@@ -1,25 +1,56 @@
-# Minecraft Remade
+<h1>Minecraft Remade</h1>
 
 A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
-- Version number: 0.2.0
+- Version: 0.2.0
 - Game versions: 1.20.3-1.20.4
 - Author: [Minecraft_hyr](https://github.com/Minecrafthyr)
 - Project Links: [Modrinth](https://modrinth.com/datapack/mcre), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
 
 ## Dependencies
 
-### Required
+[Back to Menu](#menu)
 
-### Optional
+Required
 
-- [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)
+- **Resource pack in download screen**
 
-### Embedded
+Optional
 
-- [Better Hoes](https://modrinth.com/datapack/better-hoes)
+- Mod [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi) for view recipes
 
-## Feature list (921 files)
+Embedded
+
+- Datapack [Better Hoes](https://modrinth.com/datapack/better-hoes)
+
+## Menu
+
+- [Dependencies](#dependencies)
+- [Menu](#menu)
+- [Feature list](#feature-list)
+  - [Additions](#additions)
+    - [functions](#functions)
+    - [recipes](#recipes)
+  - [Modifications](#modifications)
+    - [advancements](#advancements)
+    - [recipes](#recipes-1)
+    - [loot\_tables](#loot_tables)
+      - [archaeology](#archaeology)
+      - [blocks](#blocks)
+      - [chests](#chests)
+      - [entities](#entities)
+    - [gameplay](#gameplay)
+    - [tags](#tags)
+    - [worldgen](#worldgen)
+  - [Disables](#disables)
+- [Other information](#other-information)
+  - [Inspirations (Ideas from)](#inspirations-ideas-from)
+  - [Update plans](#update-plans)
+  - [The story of this project](#the-story-of-this-project)
+
+## Feature list
+
+[Back to Menu](#menu)
 
 **Important!** The things you need to know in early survival:
 
@@ -34,16 +65,20 @@ A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
 3. Stone tools needs flint as ingredient.
 
-### Additions (378 files)
+### Additions
 
-### functions
+#### functions
 
-I decide to separate most of functions into a number of datapacks and reformat it. So you may not see them soon :(
+[Back to Menu](#menu)
 
+- Slime has 10 ticks attack cooldown when attacking player
+- Attack mobs by shovel can make it -25% speed for 2 seconds
 - Consume melon_slice gives you a melon_seed
 - Consume glow_berries gives you glowing effect for 10 seconds
 
 #### recipes
+
+[Back to Menu](#menu)
 
 - Blasting more smelt-able items
 - You can smelting/blasting Raw Ore Block
@@ -53,13 +88,15 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - ... Boat with the Chest => boat + chest (not preview-able)
   - ... minecart => minecart + ... (not preview-able)
   - tnt + tripwire_hook => unstable tnt (not preview-able)
-- Cutting #planks / logs in stonecutter
-- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice (for normal item, it adds regeneration effect. for (enchanted\_)golden_apple, effects duration is divide by 2 and effects amplifier is multiply by 2)
-
-<details><summary style="font-size:18px">Details</summary>
-
-#### recipes
-
+- Cutting #planks / logs / woods in stonecutter
+- Stonecutting:
+  - #logs => #planks
+  - #logs => #stripped_logs
+  - #wood => #stripped_wood
+  - #planks => #slab \*2
+  - #planks => #stairs
+- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice  
+  (for normal item, it adds regeneration effect. for (enchanted\_)golden_apple, effects (duration ÷ 2) and (amplifier × 2))
 - Crafting shaped
   - golden_apple + gold_block \*8 => enchanted_golden_apple
   - emerald \*2 + gold_block \*2 + gold_ingot \*3 => totem_of_undying
@@ -86,25 +123,25 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - amethyst_block => amethyst_shard \*9
   - bricks => brick \*8
   - nether_bricks => nether_brick \*4
-  - pumpkin => carved_pumpkin \*1 + pumpkin_seeds \*4 (not preview-able)
-  - stone => cobblestone \*1
-  - deepslate => cobbled_deepslate \*1
+  - pumpkin => carved_pumpkin + pumpkin_seeds \*4 (not preview-able)
+  - stone => cobblestone
+  - deepslate => cobbled_deepslate
   - magma_block => magma_cream \*4
   - dripstone_block => pointed_dripstone \*4
   - prismarine => prismarine_shard \*9
   - quartz_block => quartz \*9
-  - granite => red_sand \*1
+  - granite => red_sand
   - sandstone => sand \*2
   - red_sandstone => red_sand \*2
-  - diorite => sand \*1
+  - diorite => sand
   - snow_block => snow \*8
   - honeycomb_block => honeycomb \*4
-  - soul_soil => soul_sand \*1
-  - brick => Any pottery_sherd \*1
+  - soul_soil => soul_sand
+  - brick => Any pottery_sherd
   - tuff => gravel \*2
   - sandstone => sand \*2
   - red_sandstone => red_sand \*2
-  - cobblestone => flint \*1
+  - cobblestone => flint
   - cobbled_deepslate => flint \*2
 - Smoking:
   - stone => black_stone
@@ -150,11 +187,19 @@ I decide to separate most of functions into a number of datapacks and reformat i
   - ink_sac + glowstone_dust => glow_ink_sac
   - brown_mushroom + fermented_spider_eye => red_mushroom
 
-</details>
+### Modifications
 
-### Modifications (543 files)
+#### advancements
+
+[Back to Menu](#menu)
+
+Husbandry:
+
+- plant_seed (Seedy place) icon is wheat_seeds now
 
 #### recipes
+
+[Back to Menu](#menu)
 
 - #logs => planks
 - planks + leather => crafting_table
@@ -163,44 +208,6 @@ I decide to separate most of functions into a number of datapacks and reformat i
 - Duplicate smithing_template now cost 1 diamond
 - stick =smelting 200t / blasting 100t / campfire_cooking 600t> torch
 - red_dye \*4 + paper \*2 + gunpowder \*3 =crafting_shaped> tnt
-
-#### loot_tables
-
-- Leaves drops:
-  - stick: 2 weight
-  - #sapling: 1 weight (mangrove_leaves turn this weight into stick)
-  - air: 2 weight
-  - \*: _Decayed mangrove_leaves won't drop anything for saving performance_
-- More mobs drops bone, leather
-- Drop it self with silk_touch: budding_amethyst
-- Crops drops are more science (I think..?)
-- Ores drops with Cobblestone(Cobbled Deepslate)
-- ancient_debris drops netherite_scarp, works with fortune
-- (short/tall)grass/(large)fern drops 4 types of seeds
-- Add special loot for sand-like blocks and gravel
-- Campfire is unlit by default, silk_touch can copy the unlit state
-
-#### tags
-
-Items:
-
-- stone_tool_materials: flint
-
-Blocks:
-
-- infiniburn_overworld: magma_block (replaced)
-- infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
-
-<details><summary style="font-size:18px">Details</summary>
-
-### advancements
-
-Husbandry:
-
-- plant_seed (Seedy place) icon is wheat_seeds now
-
-#### recipes
-
 - Smithing transform
   - ice + ice => packed_ice
   - packed_ice + packed_ice => blue_ice
@@ -238,31 +245,66 @@ Husbandry:
 
 #### loot_tables
 
-- Little tweaks to archaeology
+[Back to Menu](#menu)
+
+##### archaeology
+
+- Little tweaks
+
+##### blocks
+
+- Leaves drops: group[=2 weight> stick, =1 weight> #sapling (mangrove_leaves => stick), =2 weight> air]  
+  \*: _Decayed mangrove_leaves won't drop anything for saving performance_
+- Drop it self with silk_touch: budding_amethyst
+- Crops drops are more science (I think..?)
+- Ores drops with Cobblestone(Cobbled Deepslate)
+- ancient_debris drops netherite_scarp, works with fortune
+- (short/tall)grass/(large)fern drops 4 types of seeds
+- Add special loot for sand-like blocks and gravel
+- Campfire is unlit by default, silk_touch can copy the unlit state
 - Full bee_nest/beehive drops honeycomb
 - cake drop it self when no bite
 - bookshelf drops it self
 - melon drop it self when not axe
 - chorus_flower drop chorus_fruit / silk_touch drop itself
 - chorus_plant drop nothing / silk_touch drop itself
+- twisting_vine & weeping_vine always drop itself
+
+##### chests
+
 - jungle_temple_dispenser possibly drop poison/harming tipped_arrow
+
+##### entities
+
+- More mobs drops bone, leather
 - villager-like mobs drops emerald
 - sniffer drop moss_block
 - snow_golem drop carved_pumpkin if it's wearing a pumpkin
 - Some mobs drops smithing_template
 - player drop a player_head
-- twisting_vine & weeping_vine always drop itself
 - sliver_fish drop iron_nugget
+- Turtle drops: alternatives[=lighting> bowl, =#bypass_armor> Turtle Shell, => Turtle Scute]
+
+#### gameplay
+
+- fishing fish is also required open water
+- fishing rarely gets ores
+- Little tweaks
 
 #### tags
 
+[Back to Menu](#menu)
+
 Items:
 
+- stone_tool_materials: flint
 - axolotl_tempt_items: tropical_fish
 - stone_crafting_materials: basalt
 
 Blocks:
 
+- infiniburn_overworld: magma_block (replaced)
+- infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
 - beacon_base_blocks: (waxed\_)copper_block
 - dampens_vibrations: #beds
 - enderman_holdable: suspicious\_(gravel/sand), cobweb, soul\_(sand/soil), snow
@@ -276,9 +318,9 @@ Blocks:
 - mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
 - mineable/shovel: powder_snow
 
-</details>
-
 #### worldgen
+
+[Back to Menu](#menu)
 
 - Ores has more discard chance on air exposure.
 - flat_level_generator_preset, world_preset is better
@@ -287,12 +329,14 @@ Blocks:
 - higher ore redstone
 - more redstone/quartz
 - zombie village has no crops
-- decrease patch_dead_bush_badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913) 
+- decrease patch_dead_bush_badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913)
 
 ### Disables
 
+[Back to Menu](#menu)
+
 - Ores (Within Stone) smelting/blasting
-- Line crafts White wool
+- String crafts White wool
 - mossy_cobblestone_from_vine and mossy_stone_bricks_from_vine
 - Map extending on crafting_table
 - stick_from_bamboo_item recipe
@@ -301,6 +345,8 @@ Blocks:
 ## Other information
 
 ### Inspirations (Ideas from)
+
+[Back to Menu](#menu)
 
 - [Raw Ores Processing](https://modrinth.com/datapack/raw-ores-processing)
 - [Blasting Plus](https://modrinth.com/datapack/blasting-plus)
@@ -315,32 +361,22 @@ Blocks:
 - [True Survival](https://modrinth.com/datapack/true-survival)
 - [Silktouchless Ender Chests](https://modrinth.com/datapack/silktouchless-ender-chests)
 - [Enhancer](https://modrinth.com/mod/enhancer-mod)
-- [Stonecutter Damage](https://modrinth.com/datapack/stonecutter-damage)
 - ...
 
 ### Update plans
+
+[Back to Menu](#menu)
 
 - Way to store experience
 - Sieve ? (I think only scaffolding like that, but needs to change texture because bamboo is not a very common item let us craft it.)
 
 ### The story of this project
 
+[Back to Menu](#menu)
+
 This project is planned 3 years ago, that time I can feel Minecraft is not balanced, but I don't know how to modify Minecraft elements.  
 So, I started to study how to made a datapack, a simple way to modify Minecraft.  
 Then I created this project, change and add lots of files to make Minecraft more realistic.  
 I did it a few months ago, even did some mod-supports, but there are too many (1000+) files, makes me nervous if the project is balanced.  
 Then I review and rewrite the whole project. I've learned a lot of new things during rewriting.  
-That's Minecraft Remade today you see.
-
-### Mojang is bad on math
-
-So here are some examples that shows Mojang's bad math:
-
-- blocks *6 =crafting_shaped> stairs *4
-- bamboo *2 =crafting_shaped> stick  
-  bamboo *9 =crafting_shaped> bamboo_block  
-  bamboo_block =crafting_shapeless> bamboo_planks *2  
-  bamboo_planks *2 =crafting_shaped> stick *4
-
-- snow (8 layer) loot: => snowball *8, =silk_touch> snow_block
-  snow_block loot: => snowball *4, =silk_touch> snow_block
+That's today's Minecraft Remade.

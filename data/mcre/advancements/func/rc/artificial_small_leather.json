@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "artificial_small_leather": {
+      "conditions": {
+        "recipe_id": "mcre:crafting_shaped/artificial_small_leather"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/rc/artificial_small_leather",
+    "loot": [
+      "mcre:generic/artificial_small_leather"
+    ]
+  }
+}
