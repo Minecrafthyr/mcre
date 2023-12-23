@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "stunned": {
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "minecraft:shovels"
+            }
+          }
+        },
+        "damage": {
+          "blocked": false,
+          "direct_entity": {
+            "type": "minecraft:player"
+          },
+          "taken": {
+            "min": 2.0
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/phe/stunned"
+  }
+}

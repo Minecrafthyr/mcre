@@ -32,7 +32,7 @@
                   }
                 }
               ],
-              "entries": [
+              "children": [
                 {
                   "name": "minecraft:potato",
                   "type": "minecraft:item",

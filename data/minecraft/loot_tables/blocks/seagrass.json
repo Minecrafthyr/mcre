@@ -18,7 +18,7 @@
             {
               "conditions": [
                 {
-                  "condition": "minecraft:survive_explosion"
+                  "condition": "minecraft:survives_explosion"
                 },
                 {
                   "condition": "minecraft:table_bonus",

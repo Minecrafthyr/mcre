@@ -3,29 +3,38 @@
 A large, balanced datapack that tweaks to vanilla and adds lots of features.
 
 - Version: 0.2.0
-- Game versions: 1.20.3-1.20.4
-- Author: [Minecraft_hyr](https://github.com/Minecrafthyr)
-- Project Links: [Modrinth](https://modrinth.com/datapack/mcre), [Github](https://github.com/Minecrafthyr/Minecraft-Remade)
+- Game versions: 1.20.3-1.20.4 (Format 26)
+- Author: Minecraft_hyr
+  - [Modrinth](https://modrinth.com/user/Minecraft_hyr)
+  - [Github](https://github.com/Minecrafthyr)
+- Project Links:
+  - [Modrinth](https://modrinth.com/datapack/mcre)
+  - [Github](https://github.com/Minecrafthyr/Minecraft-Remade) (•[Issue](https://github.com/Minecrafthyr/Minecraft-Remade/issues) •[Discussions](https://github.com/Minecrafthyr/Minecraft-Remade/discussions))
+  - [Resource pack in Github](https://github.com/Minecrafthyr/Minecraft-Remade-Resources) (•[Issue](https://github.com/Minecrafthyr/Minecraft-Remade-Resources/issues))
 
 ## Dependencies
 
 [Back to Menu](#menu)
 
-Required
+### Required
 
 - **Resource pack in download screen**
 
-Optional
+### Optional
 
-- Mod [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi) for view recipes
+- Mod [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)/[Polydex](https://modrinth.com/mod/polydex) for view recipes
 
-Embedded
+### Embedded
 
 - Datapack [Better Hoes](https://modrinth.com/datapack/better-hoes)
+- A part of datapack [Di Library](https://modrinth.com/datapack/dilib) ([Github](https://github.com/Minecrafthyr/Di-Library))
 
 ## Menu
 
 - [Dependencies](#dependencies)
+  - [Required](#required)
+  - [Optional](#optional)
+  - [Embedded](#embedded)
 - [Menu](#menu)
 - [Feature list](#feature-list)
   - [Additions](#additions)
@@ -39,8 +48,10 @@ Embedded
       - [blocks](#blocks)
       - [chests](#chests)
       - [entities](#entities)
-    - [gameplay](#gameplay)
+      - [gameplay](#gameplay)
     - [tags](#tags)
+      - [items](#items)
+      - [blocks](#blocks-1)
     - [worldgen](#worldgen)
   - [Disables](#disables)
 - [Other information](#other-information)
@@ -58,8 +69,8 @@ Embedded
 
    | Crafting   |
    | ---------- |
-   | leather    |
-   | any planks |
+   | Leather    |
+   | Any planks |
 
 2. Flint: can be find by digging gravel / use 2 cobblestone craft 1 cobblestone with 20% chance to drop flint.
 
@@ -72,7 +83,8 @@ Embedded
 [Back to Menu](#menu)
 
 - Slime has 10 ticks attack cooldown when attacking player
-- Attack mobs by shovel can make it -25% speed for 2 seconds
+- Attack mobs by shovel and it take at least 2 damage: -25% speed for 2 seconds
+- Attack mobs by hoe and it take at least 1 damage: damage every 10 ticks for 59 ticks (5 damage total, and it's bypassing armor and cooldown)
 - Consume melon_slice gives you a melon_seed
 - Consume glow_berries gives you glowing effect for 10 seconds
 
@@ -241,7 +253,7 @@ Husbandry:
 - dried_kelp cooking time is 50% of vanilla
 - Tweaked smelting/blasting raw resource experience
 - Stonecutting
-  - glass => glass_pane \*8
+  - #glass_blocks => #glass_panes \*8
 
 #### loot_tables
 
@@ -254,7 +266,7 @@ Husbandry:
 ##### blocks
 
 - Leaves drops: group[=2 weight> stick, =1 weight> #sapling (mangrove_leaves => stick), =2 weight> air]  
-  \*: _Decayed mangrove_leaves won't drop anything for saving performance_
+  \*: _Decayed mangrove_leaves won't drop anything for saving performance, see [MC-218623](https://bugs.mojang.com/browse/MC-218623)_
 - Drop it self with silk_touch: budding_amethyst
 - Crops drops are more science (I think..?)
 - Ores drops with Cobblestone(Cobbled Deepslate)
@@ -285,7 +297,7 @@ Husbandry:
 - sliver_fish drop iron_nugget
 - Turtle drops: alternatives[=lighting> bowl, =#bypass_armor> Turtle Shell, => Turtle Scute]
 
-#### gameplay
+##### gameplay
 
 - fishing fish is also required open water
 - fishing rarely gets ores
@@ -295,13 +307,13 @@ Husbandry:
 
 [Back to Menu](#menu)
 
-Items:
+##### items
 
 - stone_tool_materials: flint
 - axolotl_tempt_items: tropical_fish
 - stone_crafting_materials: basalt
 
-Blocks:
+##### blocks
 
 - infiniburn_overworld: magma_block (replaced)
 - infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
@@ -315,7 +327,7 @@ Blocks:
 - sword_efficient: cactus, hay_block, mushroom_block, (tall\_)seagrass, kelp(\_plant), bee_nest, beehive, sculk_vein, glow_lichen (replaced)
 - mineable/axe: leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
 - mineable/hoe: attached\_(melon/pumpkin)\_stem, beetroots, big_dripleaf_stem, big_dripleaf, carrots, carved_pumpkin, cave_vines(\_plant), chorus_flower, chorus_plant, cocoa, brown_mushroom_block, brown_mushroom, dead_bush, fern, glow_lichen, short_grass, hanging_roots, jack_o_lantern, melon, mushroom_stem, lily_pad, large_fern, nether_wart, potatoes, pumpkin, red_mushroom_block, red_mushroom, small_dripleaf, spore_blossom, sugar_cane, sweet_berry_bush, tall_grass, twisting_vines_plant, twisting_vines, vine, warped_fungus, weeping_vines_plant, weeping_vines, wheat, azalea, crimson_fungus, #flowers, crimson_roots, warped_roots, nether_sprouts, sea_pickle, #saplings, #crops
-- mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights
+- mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights, frosted_ice
 - mineable/shovel: powder_snow
 
 #### worldgen
@@ -344,9 +356,9 @@ Blocks:
 
 ## Other information
 
-### Inspirations (Ideas from)
-
 [Back to Menu](#menu)
+
+### Inspirations (Ideas from)
 
 - [Raw Ores Processing](https://modrinth.com/datapack/raw-ores-processing)
 - [Blasting Plus](https://modrinth.com/datapack/blasting-plus)
@@ -365,18 +377,14 @@ Blocks:
 
 ### Update plans
 
-[Back to Menu](#menu)
-
 - Way to store experience
 - Sieve ? (I think only scaffolding like that, but needs to change texture because bamboo is not a very common item let us craft it.)
 
 ### The story of this project
 
-[Back to Menu](#menu)
-
-This project is planned 3 years ago, that time I can feel Minecraft is not balanced, but I don't know how to modify Minecraft elements.  
+This project is planned 3 years ago, that time I can feel Minecraft has some flaws, but I don't know how to modify Minecraft elements.  
 So, I started to study how to made a datapack, a simple way to modify Minecraft.  
-Then I created this project, change and add lots of files to make Minecraft more realistic.  
+Then I created this project, add lots of files to make Minecraft more realistic.  
 I did it a few months ago, even did some mod-supports, but there are too many (1000+) files, makes me nervous if the project is balanced.  
 Then I review and rewrite the whole project. I've learned a lot of new things during rewriting.  
 That's today's Minecraft Remade.

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "player_attack": {
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "type": "minecraft:player"
+          },
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "mcre:player_attack"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/phe/player_attack"
+  }
+}
