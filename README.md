@@ -1,362 +1,368 @@
-<h1>Minecraft Remade</h1>
+# Minecraft Remade
 
-A large, balanced datapack that tweaks to vanilla and adds lots of features.
+A Large, balanced datapack that tweaks to vanilla and adds lots of features.
 
 - Version: 0.2.0
-- Game versions: 1.20.3-1.20.4 (Format 26)
-- Author: Minecraft_hyr
-  - [Modrinth](https://modrinth.com/user/Minecraft_hyr)
-  - [Github](https://github.com/Minecrafthyr)
+- Game versions: 1.20.4 (Format 26)
 - Project Links:
   - [Modrinth](https://modrinth.com/datapack/mcre)
-  - [Github](https://github.com/Minecrafthyr/Minecraft-Remade) (•[Issue](https://github.com/Minecrafthyr/Minecraft-Remade/issues) •[Discussions](https://github.com/Minecrafthyr/Minecraft-Remade/discussions))
-  - [Resource pack in Github](https://github.com/Minecrafthyr/Minecraft-Remade-Resources) (•[Issue](https://github.com/Minecrafthyr/Minecraft-Remade-Resources/issues))
+  - [Github](https://github.com/Minecrafthyr/mcre)
+  - [Resource pack in Github](https://github.com/Minecrafthyr/mcre-resources)
 
 ## Dependencies
-
-[Back to Menu](#menu)
 
 ### Required
 
 - **Resource pack in download screen**
+- [Di Library](https://modrinth.com/datapack/dilib) datapack
 
 ### Optional
 
-- Mod [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)/[Polydex](https://modrinth.com/mod/polydex) for view recipes
+- [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)/[Polydex](https://modrinth.com/mod/polydex) mod for view recipes
 
 ### Embedded
 
-- Datapack [Better Hoes](https://modrinth.com/datapack/better-hoes)
-- A part of datapack [Di Library](https://modrinth.com/datapack/dilib) ([Github](https://github.com/Minecrafthyr/Di-Library))
-
-## Menu
-
-- [Dependencies](#dependencies)
-  - [Required](#required)
-  - [Optional](#optional)
-  - [Embedded](#embedded)
-- [Menu](#menu)
-- [Feature list](#feature-list)
-  - [Additions](#additions)
-    - [functions](#functions)
-    - [recipes](#recipes)
-  - [Modifications](#modifications)
-    - [advancements](#advancements)
-    - [recipes](#recipes-1)
-    - [loot\_tables](#loot_tables)
-      - [archaeology](#archaeology)
-      - [blocks](#blocks)
-      - [chests](#chests)
-      - [entities](#entities)
-      - [gameplay](#gameplay)
-    - [tags](#tags)
-      - [items](#items)
-      - [blocks](#blocks-1)
-    - [worldgen](#worldgen)
-  - [Disables](#disables)
-- [Other information](#other-information)
-  - [Inspirations (Ideas from)](#inspirations-ideas-from)
-  - [Update plans](#update-plans)
-  - [The story of this project](#the-story-of-this-project)
+- [Better Hoes](https://modrinth.com/datapack/better-hoes) datapack
 
 ## Feature list
 
-[Back to Menu](#menu)
+Menu
+
+- [Additions](#additions)
+  - [Functions](#functions)
+  - [Recipes](#recipes)
+- [Modifications](#modifications)
+  - [Advancements](#advancements)
+  - [Recipes](#recipes-1)
+  - [Loot Tables](#loot-tables)
+    - [Archaeology](#archaeology)
+    - [Blocks](#blocks)
+    - [Chests](#chests)
+    - [Entities](#entities)
+    - [Gameplay](#gameplay)
+  - [Tags](#tags)
+    - [Items](#items)
+    - [Blocks](#blocks-1)
+  - [World Generate](#world-generate)
+- [Disables](#disables)
 
 **Important!** The things you need to know in early survival:
 
-1. Crafting table recipe is:
+1. Crafting Table recipe is:
 
    | Crafting   |
    | ---------- |
    | Leather    |
-   | Any planks |
+   | Any Planks |
 
-2. Flint: can be find by digging gravel / use 2 cobblestone craft 1 cobblestone with 20% chance to drop flint.
+2. Flint: can be find by digging gravel / use 2 Cobblestone craft 1 Cobblestone with 20% chance to drop Flint.
 
-3. Stone tools needs flint as ingredient.
+3. Stone tools needs Flint as ingredient.
 
 ### Additions
 
-#### functions
+#### Functions
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
-- Slime has 10 ticks attack cooldown when attacking player
-- Attack mobs by shovel and it take at least 2 damage: -25% speed for 2 seconds
-- Attack mobs by hoe and it take at least 1 damage: damage every 10 ticks for 59 ticks (5 damage total, and it's bypassing armor and cooldown)
-- Consume melon_slice gives you a melon_seed
-- Consume glow_berries gives you glowing effect for 10 seconds
+- Slime has 10 ticks attack cooldown when attacking player.
+- Consume Melon Slice gives you a Melon Seed.
+- Consume Glow Berries gives you Glowing effect for 10 seconds.
+- Player has a extra attack cooldown, because players and mobs attack is bypassing cooldown.
 
-#### recipes
+Mob attributes:
 
-[Back to Menu](#menu)
+- Skeleton
+  - 14 Health
+- Turtle
+  - 10 Health
+  - 20 Armor
 
-- Blasting more smelt-able items
-- You can smelting/blasting Raw Ore Block
-- Crafting shapeless:
-  - cobblestone + cobblestone => cobblestone + 20% chance flint (not preview-able)
-  - cobbled_deepslate + cobbled_deepslate => cobbled_deepslate + 40% chance flint (not preview-able)
-  - ... Boat with the Chest => boat + chest (not preview-able)
-  - ... minecart => minecart + ... (not preview-able)
-  - tnt + tripwire_hook => unstable tnt (not preview-able)
-- Cutting #planks / logs / woods in stonecutter
-- Stonecutting:
-  - #logs => #planks
-  - #logs => #stripped_logs
-  - #wood => #stripped_wood
-  - #planks => #slab \*2
-  - #planks => #stairs
-- apple/golden_apple/enchanted_golden_apple/cactus/melon + glass_bottle => Juice  
-  (for normal item, it adds regeneration effect. for (enchanted\_)golden_apple, effects (duration ÷ 2) and (amplifier × 2))
-- Crafting shaped
-  - golden_apple + gold_block \*8 => enchanted_golden_apple
-  - emerald \*2 + gold_block \*2 + gold_ingot \*3 => totem_of_undying
-  - string + phantom_membrane \*6 => elytra
-  - blackstone + gold_nugget \*8 => gilded_blackstone
-  - bones \*8 => skeleton_skull
-  - skeleton_skull + wither_rose \*8 => wither_skull
-  - skeleton_skull + rotten_flesh \*8 => zombie_head
-  - ...
-- Smelting 200t / Blasting 100t:
-  - glow_ink_sac / glow_berries => glowstone_dust + 0.1 exp
-  - tuff => andesite + 0.1 exp
-  - dripstone_block => calcite + 0.1 exp
-  - mud => clay + 0.1 exp
-  - bell / clock / golden_horse_armor => gold_ingot
-  - cauldron / compass / iron_horse_armor => iron_ingot
-  - prismarine_shard => prismarine_crystals + 0.25 exp
-  - nether_wart => red_dye
-  - granite => netherrack + 0.1 exp
-- Smelting 200t / Blasting 100t / Campfire_cooking 600t:
-  - #saplings => dead_bush
-  - rotten_flesh => rabbit_hide + 1.0 exp
-- Stonecutting:
-  - amethyst_block => amethyst_shard \*9
-  - bricks => brick \*8
-  - nether_bricks => nether_brick \*4
-  - pumpkin => carved_pumpkin + pumpkin_seeds \*4 (not preview-able)
-  - stone => cobblestone
-  - deepslate => cobbled_deepslate
-  - magma_block => magma_cream \*4
-  - dripstone_block => pointed_dripstone \*4
-  - prismarine => prismarine_shard \*9
-  - quartz_block => quartz \*9
-  - granite => red_sand
-  - sandstone => sand \*2
-  - red_sandstone => red_sand \*2
-  - diorite => sand
-  - snow_block => snow \*8
-  - honeycomb_block => honeycomb \*4
-  - soul_soil => soul_sand
-  - brick => Any pottery_sherd
-  - tuff => gravel \*2
-  - sandstone => sand \*2
-  - red_sandstone => red_sand \*2
-  - cobblestone => flint
-  - cobbled_deepslate => flint \*2
-- Smoking:
-  - stone => black_stone
-  - white_dye => light_gray_dye
-  - light_gray_dye => gray_dye
-  - gray_dye => black_dye
-- Crafting shapeless:
-  - gravel + clay => dirt
-  - sand + mud => dirt
-  - dirt + brown_mushroom => mycelium
-  - dirt + short_grass => grass_block
-  - dirt + hanging_roots => rooted_dirt
-  - paper + piglin_head => piglin_banner_pattern
-  - netherrack + warped_root => warped_nylium
-  - netherrack + crimson_root => crimson_nylium
-  - iron_nugget + echo_shard => disc_fragment_5
-  - tall_grass => short_grass \*2
-  - large_fern => fern \*2
-  - melon => melon_slice \*8
-  - redstone => red_dye
-  - popped_chorus_fruit => purple_dye
-  - leather => rabbit_hide \*4
-  - snow_block => snowball \*8
-  - snow \*8 => snow_block
-  - dead_bush => stick
-  - #vine => string
-  - #wool => string \*9
-  - beetroot => sugar
-  - chorus_fruit => ender_pearl
-- Smithing transform:
-  - obsidian + ghast_tear => crying_obsidian
-  - damaged_anvil + iron_block => chipped_anvil
-  - chipped_anvil + iron_block => anvil
-  - stone + stone => deepslate
-  - gravel + gravel => tuff
-  - cobblestone + ender_pearl => end_stone
-  - weeping_vines + ender_pearl => twisting_vines
-  - crimson_fungus + ender_pearl => warped_fungus
-  - crimson_roots + ender_pearl => warped_roots
-  - vine + nether_wart => weeping_vines
-  - amethyst_shard + sculk => echo_shard
-  - sweet_berries + glowstone_dust => glow_berries
-  - ink_sac + glowstone_dust => glow_ink_sac
-  - brown_mushroom + fermented_spider_eye => red_mushroom
+#### Recipes
+
+[Back to Menu](#feature-list)
+
+- You Can Smelting/Blasting Raw Ore Block
+
+Blasting:
+
+- Some smelt Recipes (Including Cobblestone =Smelting 200t> Stone , #Sands =Smelting 200t> Grass ...)
+
+Crafting Shapeless:
+
+- Cobblestone + Cobblestone => Cobblestone + 20% Chance Flint (not Preview-able)
+- Cobbled Deepslate + Cobbled Deepslate => Cobbled Deepslate + 40% Chance Flint (not Preview-able)
+- ... Boat With The Chest => Boat + Chest (not Preview-able)
+- ... Minecart => Minecart + ... (not Preview-able)
+- TNT + Tripwire Hook => Unstable TNT (not Preview-able)
+- Apple/Golden Apple/enchanted Golden Apple/cactus/Melon + Glass Bottle => Juice  
+  (for Normal Item, It Adds Regeneration Effect. For (enchanted) Golden Apple, Effects (duration ÷ 2) And (amplifier × 2))
+
+
+Crafting Shaped
+
+- Golden Apple + Gold Block \*8 => Enchanted Golden Apple
+- Emerald \*2 + Gold Block \*2 + Gold Ingot \*3 => Totem Of Undying
+- String + Phantom Membrane \*6 => Elytra
+- Blackstone + Gold Nugget \*8 => Gilded Blackstone
+- Bones \*8 => Skeleton Skull
+- Skeleton Skull + Wither Rose \*8 => Wither Skull
+- Skeleton Skull + Rotten Flesh \*8 => Zombie Head
+- ...
+
+Smelting 200t / Blasting 100t:
+
+- Glow Ink Sac / Glow Berries => Glowstone Dust + 0.1 XP
+- Tuff => Andesite + 0.1 XP
+- Dripstone Block => Calcite + 0.1 XP
+- Mud => Clay + 0.1 XP
+- Bell / Clock / Golden Horse Armor => Gold Ingot
+- Cauldron / Compass / Iron Horse Armor => Iron Ingot
+- Prismarine Shard => Prismarine Crystals + 0.25 XP
+- Nether Wart => Red Dye
+- Granite => Netherrack + 0.1 XP
+
+Smelting 200t / Blasting 100t / Campfire Cooking 600t:
+
+- #Saplings => Dead Bush
+- Rotten Flesh => Rabbit Hide + 1.0 XP
+
+Stonecutting:
+
+- #Logs => #Planks
+- #Logs => #Stripped Logs
+- #Wood => #Stripped Wood
+- #Planks => #Slab \*2
+- #Planks => #Stairs
+- Amethyst Block => Amethyst Shard \*9
+- Bricks => Brick \*4
+- Nether Bricks => Nether Brick \*4
+- Pumpkin => Carved Pumpkin + Pumpkin Seeds \*4 (not Preview-able)
+- Stone => Cobblestone
+- Deepslate => Cobbled Deepslate
+- Magma Block => Magma Cream \*4
+- Dripstone Block => Pointed Dripstone \*4
+- Prismarine => Prismarine Shard \*9
+- Quartz Block => Quartz \*9
+- Granite => Red Sand
+- Sandstone => Sand \*2
+- Red Sandstone => Red Sand \*2
+- Diorite => Sand
+- Snow Block => Snow \*8
+- Honeycomb Block => Honeycomb \*4
+- Soul Soil => Soul Sand
+- Brick => Any Pottery Sherd
+- Tuff => Gravel \*2
+- Sandstone => Sand \*2
+- Red Sandstone => Red Sand \*2
+- Cobblestone => Flint
+- Cobbled Deepslate => Flint \*2
+
+Smoking:
+
+- Stone => Black Stone
+- White Dye => Light Gray Dye
+- Light Gray Dye => Gray Dye
+- Gray Dye => Black Dye
+
+Crafting Shapeless:
+
+- Gravel + Clay => Dirt
+- Sand + Mud => Dirt
+- Dirt + Brown Mushroom => Mycelium
+- Dirt + Short Grass => Grass Block
+- Dirt + Hanging Roots => Rooted Dirt
+- Paper + Piglin Head => Piglin Banner Pattern
+- Netherrack + Warped Root => Warped Nylium
+- Netherrack + Crimson Root => Crimson Nylium
+- Iron Nugget + Echo Shard => Disc Fragment 5
+- Tall Grass => Short Grass \*2
+- Large Fern => Fern \*2
+- Melon => Melon Slice \*8
+- Redstone => Red Dye
+- Popped Chorus Fruit => Purple Dye
+- Leather => Rabbit Hide \*4
+- Snow Block => Snowball \*8
+- Snow \*8 => Snow Block
+- Dead Bush => Stick
+- #Vine => String
+- #Wool => String \*9
+- Beetroot => Sugar
+- Chorus Fruit => Ender Pearl
+
+Smithing Transform:
+
+- Obsidian + Ghast Tear => Crying Obsidian
+- Damaged Anvil + Iron Block => Chipped Anvil
+- Chipped Anvil + Iron Block => Anvil
+- Stone + Stone => Deepslate
+- Gravel + Gravel => Tuff
+- Cobblestone + Ender Pearl => End Stone
+- Weeping Vines + Ender Pearl => Twisting Vines
+- Crimson Fungus + Ender Pearl => Warped Fungus
+- Crimson Roots + Ender Pearl => Warped Roots
+- Vine + Nether Wart => Weeping Vines
+- Amethyst Shard + Sculk => Echo Shard
+- Sweet Berries + Glowstone Dust => Glow Berries
+- Ink Sac + Glowstone Dust => Glow Ink Sac
+- Brown Mushroom + Fermented Spider Eye => Red Mushroom
 
 ### Modifications
 
-#### advancements
+#### Advancements
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
 Husbandry:
 
-- plant_seed (Seedy place) icon is wheat_seeds now
+- Plant Seed (Seedy Place) Icon Is Wheat Seeds Now
 
-#### recipes
+#### Recipes
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
-- #logs => planks
-- planks + leather => crafting_table
-- wheat as food in vanilla recipes is replaced by wheat_seeds
-- #wooden_pressure_plates => paper
-- Duplicate smithing_template now cost 1 diamond
-- stick =smelting 200t / blasting 100t / campfire_cooking 600t> torch
-- red_dye \*4 + paper \*2 + gunpowder \*3 =crafting_shaped> tnt
-- Smithing transform
-  - ice + ice => packed_ice
-  - packed_ice + packed_ice => blue_ice
-  - sand + sand => sandstone
-  - red_sand + red_sand => red_sandstone
-  - stone + quartz => diorite
-  - diorite + quartz => granite
-- clay / bricks-like block (require 8 items as ingredient / to un-craft / drop 8 item)
-- Crafting shaped
-  - carrot + gold_ingot \*4 => golden_carrot
-  - #wool + stick => #banner
-  - heart_of_the_sea + nautilus_shell => conduit
-  - obsidian \*3 + book + redstone_block + diamond \*2 => enchanting_table
-  - amethyst_shard \*4 + ender_eye + glass \*3 + ghast_tear => end_crystal
-  - #slabs \*5(raft: 3) + wooden_shovel \*2 => boat
-  - iron_ingot \*5 => hopper
-  - string \*5 => lead
-- Better redstone block**s** recipes
-- Crafting shapeless
-  - better rail recipe
-  - stick \*6 => ladder
-  - milk_bucket + sweet_berries + sugar + bread + egg => cake
-  - iron_ingot, iron_nugget \*3, planks \*3 => shield
-  - arrow + glowstone_dust => spectral_arrow
-  - skeleton_skull/wither_skeleton_skull => skull_banner_pattern
-  - blocks need 1 dye to dye
-  - bone/nautilus_shell => bone_meal
-  - piston + slime_ball => sticky_piston
-  - stick \*4 + #coals => campfire
-  - stick \*4 + #soul_fire_base_blocks => soul_campfire
-- dried_kelp cooking time is 50% of vanilla
-- Tweaked smelting/blasting raw resource experience
+- #Logs => Planks
+- Planks + Leather => Crafting Table
+- Wheat as Food in vanilla recipes is replaced by Wheat Seeds
+- #wooden Pressure Plates => Paper
+- Duplicate Smithing Template Now Cost 1 Diamond
+- Stick =Smelting 200t / Blasting 100t / Campfire Cooking 600t> Torch
+- Red Dye \*4 + Paper \*2 + Gunpowder \*3 =crafting Shaped> TNT
+- Smithing Transform
+  - Ice + Ice => Packed Ice
+  - Packed Ice + Packed Ice => Blue Ice
+  - Sand + Sand => Sandstone
+  - Red Sand + Red Sand => Red Sandstone
+  - Stone + Quartz => Diorite
+  - Diorite + Quartz => Granite
+- Clay / Bricks-like Block (require 8 Items As Ingredient / To Un-craft / drop 8 Item)
+- Crafting Shaped
+  - Carrot + Gold Ingot \*4 => Golden Carrot
+  - #Wool + Stick => #banner
+  - Heart Of The Sea + Nautilus Shell => Conduit
+  - Obsidian \*3 + Book + Redstone Block + Diamond \*2 => Enchanting Table
+  - Amethyst Shard \*4 + Ender Eye + Glass \*3 + Ghast Tear => End Crystal
+  - #slabs \*5(raft: 3) + Wooden Shovel \*2 => Boat
+  - Iron Ingot \*5 => Hopper
+  - String \*5 => Lead
+- Better Redstone Block**s** Recipes
+- Crafting Shapeless
+  - Better Rail recipe
+  - Stick \*6 => Ladder
+  - Milk Bucket + Sweet Berries + Sugar + Bread + Egg => Cake
+  - Iron Ingot, Iron Nugget \*3, Planks \*3 => Shield
+  - Arrow + Glowstone Dust => Spectral Arrow
+  - Skeleton Skull/wither Skeleton Skull => Skull Banner Pattern
+  - Blocks need 1 Dye to dye
+  - Bone/Nautilus Shell => Bone Meal
+  - Piston + Slime Ball => Sticky Piston
+  - Stick \*4 + #Coals => Campfire
+  - Stick \*4 + #soul Fire Base Blocks => Soul Campfire
+- Dried Kelp Cooking Time Is 50% Of Vanilla
+- Tweaked Smelting/blasting Raw Resource Experience
 - Stonecutting
-  - #glass_blocks => #glass_panes \*8
+  - #glass Blocks => #glass Panes \*8
 
-#### loot_tables
+#### Loot Tables
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
-##### archaeology
+##### Archaeology
 
-- Little tweaks
+- Little Tweaks
 
-##### blocks
+##### Blocks
 
-- Leaves drops: group[=2 weight> stick, =1 weight> #sapling (mangrove_leaves => stick), =2 weight> air]  
-  \*: _Decayed mangrove_leaves won't drop anything for saving performance, see [MC-218623](https://bugs.mojang.com/browse/MC-218623)_
-- Drop it self with silk_touch: budding_amethyst
-- Crops drops are more science (I think..?)
-- Ores drops with Cobblestone(Cobbled Deepslate)
-- ancient_debris drops netherite_scarp, works with fortune
-- (short/tall)grass/(large)fern drops 4 types of seeds
-- Add special loot for sand-like blocks and gravel
-- Campfire is unlit by default, silk_touch can copy the unlit state
-- Full bee_nest/beehive drops honeycomb
-- cake drop it self when no bite
-- bookshelf drops it self
-- melon drop it self when not axe
-- chorus_flower drop chorus_fruit / silk_touch drop itself
-- chorus_plant drop nothing / silk_touch drop itself
-- twisting_vine & weeping_vine always drop itself
+- #Leaves: {Alternatives [=Silk Touch> #Leaves, => Group [=2 Weight> Stick, =1 Weight> #Sapling (mangrove Leaves => Stick), =2 Weight> Air]]}  
+  \*: Decayed mangrove leaves won't drop anything for saving performance, see [MC-218623](https://bugs.mojang.com/browse/MC-218623).
+- Budding Amethyst: {Alternatives [=Silk Touch> Budding Amethyst, => Air]}
+- Crops drops Are More Science. (I think..?)
+- Ores drops With Cobblestone (Cobbled Deepslate).
+- Ancient Debris: {Alternatives [=Silk Touch> Ancient Debris, => Netherite Scarp]}
+- (Short/Tall) Grass / (Large) Fern drops 4 Types Of Seeds
+- Special Loot for Sand-like Blocks and Gravel
+- Campfire: default `[unlit=true]`, drops: {Alternatives [=Silk Touch> Campfire`[unlit]`, => Campfire]}
+- Bee Nest/Beehive: {=`[honey=5]`> Honeycomb}
+- Cake: {=`[bite=0]`> Cake}
+- Bookshelf: {=> Bookshelf}
+- Melon: {Alternatives [=Axe> Melon Slice, => Melon]}
+- Chorus Flower: {Alternatives [=Silk Touch> Chorus Flower, => Chorus Fruit]}
+- Chorus Plant: {Alternatives [=Silk Touch> Chorus Plant, => Air]}
+- Twisting Vine & Weeping Vine: drop itself
 
-##### chests
+##### Chests
 
-- jungle_temple_dispenser possibly drop poison/harming tipped_arrow
+- Jungle Temple Dispenser: {1~3 × [=> Arrow \*2~7, => Tipped Arrow (Harming) \*2~7, => Tipped Arrow (Long Poison) \*2~7]}
 
-##### entities
+##### Entities
 
-- More mobs drops bone, leather
-- villager-like mobs drops emerald
-- sniffer drop moss_block
-- snow_golem drop carved_pumpkin if it's wearing a pumpkin
-- Some mobs drops smithing_template
-- player drop a player_head
-- sliver_fish drop iron_nugget
-- Turtle drops: alternatives[=lighting> bowl, =#bypass_armor> Turtle Shell, => Turtle Scute]
+- More Mobs drops Bone, Leather
+- Villager-like Mobs drops Emerald
+- Sniffer drop Moss Block
+- Snow Golem drop Carved Pumpkin If It's Wearing A Pumpkin
+- Some Mobs drops Smithing Template
+- Player drop A Player Head
+- Sliver Fish {=> Iron Nugget \*0~1}
+- Turtle: Alternatives[=Lighting> Bowl, =#Bypass Armor Damages> Turtle Shell, => Turtle Scute \*0~2]
 
-##### gameplay
+##### Gameplay
 
-- fishing fish is also required open water
-- fishing rarely gets ores
-- Little tweaks
+- Fishing required open water.
+- Fishing rarely gets ores.
+- Little Tweaks.
 
-#### tags
+#### Tags
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
-##### items
+##### Items
 
-- stone_tool_materials: flint
-- axolotl_tempt_items: tropical_fish
-- stone_crafting_materials: basalt
+- Stone Tool Materials: Flint
+- Axolotl Tempt Items: Tropical Fish
+- Stone Crafting Materials: Basalt
 
-##### blocks
+##### Blocks
 
-- infiniburn_overworld: magma_block (replaced)
-- infiniburn_nether: netherrack, #infiniburn_overworld (replaced)
-- beacon_base_blocks: (waxed\_)copper_block
-- dampens_vibrations: #beds
-- enderman_holdable: suspicious\_(gravel/sand), cobweb, soul\_(sand/soil), snow
-- needs_stone_tool: iron-style blocks, gold-style blocks, deepslate-style blocks, copper-style blocks (replaced)
-- needs_iron_tool: diamond_block, emerald_block, (crying)obsidian, respawn_anchor, amethyst_block, budding_amethyst (replaced)
-- needs_diamond_tool: netherite_block, ancient_debris (replaced)
-- snow_layer_cannot_survive_on: #ice, spawner, barrier (replaced)
-- sword_efficient: cactus, hay_block, mushroom_block, (tall\_)seagrass, kelp(\_plant), bee_nest, beehive, sculk_vein, glow_lichen (replaced)
-- mineable/axe: leaves, beds, bamboo_sapling, bamboo, cactus, shroomlight, #froglights
-- mineable/hoe: attached\_(melon/pumpkin)\_stem, beetroots, big_dripleaf_stem, big_dripleaf, carrots, carved_pumpkin, cave_vines(\_plant), chorus_flower, chorus_plant, cocoa, brown_mushroom_block, brown_mushroom, dead_bush, fern, glow_lichen, short_grass, hanging_roots, jack_o_lantern, melon, mushroom_stem, lily_pad, large_fern, nether_wart, potatoes, pumpkin, red_mushroom_block, red_mushroom, small_dripleaf, spore_blossom, sugar_cane, sweet_berry_bush, tall_grass, twisting_vines_plant, twisting_vines, vine, warped_fungus, weeping_vines_plant, weeping_vines, wheat, azalea, crimson_fungus, #flowers, crimson_roots, warped_roots, nether_sprouts, sea_pickle, #saplings, #crops
-- mineable/pickaxe: beacon, reinforced_deepslate, (stained/)glass(pane)(tinted_glass), glowstone, sea_lantern, redstone_lamp, froglights, frosted_ice
-- mineable/shovel: powder_snow
+- Infiniburn Overworld: Magma Block **(Replaced)**
+- Infiniburn Nether: Netherrack, #Infiniburn Overworld **(Replaced)**
+- Beacon Base Blocks: (waxed) Copper Block
+- Dampens Vibrations: #Beds
+- Enderman Holdable: Suspicious (gravel/Sand), Cobweb, Soul (Sand/soil), Snow
+- Needs Stone Tool: Iron-style Blocks, Gold-style Blocks, Deepslate-style Blocks, Copper-style Blocks **(Replaced)**
+- Needs Iron Tool: Diamond Block, Emerald Block, (crying)Obsidian, Respawn Anchor, Amethyst Block, Budding Amethyst **(Replaced)**
+- Needs Diamond Tool: Netherite Block, Ancient Debris **(Replaced)**
+- Snow Layer Cannot Survive On: #Ice, Spawner, Barrier **(Replaced)**
+- Sword Efficient: Cactus, Hay Block, Mushroom Block, (Tall) Seagrass, Kelp (plant), Bee Nest, Beehive, Sculk Vein, Glow Lichen **(Replaced)**
+- Mineable/Axe: Leaves, #Beds, Bamboo Sapling, Bamboo, Cactus, Shroomlight, #Froglights
+- Mineable/Hoe: (Melon/pumpkin) Stem (attached), Beetroots, Big Dripleaf Stem, Big Dripleaf, Carrots, Carved Pumpkin, Cave Vines (plant), Chorus Flower, Chorus Plant, Cocoa, Brown Mushroom Block, Brown Mushroom, Dead Bush, Fern, Glow Lichen, Short Grass, Hanging Roots, Jack O Lantern, Melon, Mushroom Stem, Lily Pad, Large Fern, Nether Wart, Potatoes, Pumpkin, Red Mushroom Block, Red Mushroom, Small Dripleaf, Spore Blossom, Sugar Cane, Sweet Berry Bush, Tall Grass, Twisting Vines Plant, Twisting Vines, Vine, Warped Fungus, Weeping Vines Plant, Weeping Vines, Wheat, Azalea, Crimson Fungus, #Flowers, Crimson Roots, Warped Roots, Nether Sprouts, Sea Pickle, #saplings, #crops
+- Mineable/Pickaxe: Beacon, Reinforced Deepslate, (Stained) Glass (Pane) (Tinted Glass), Glowstone, Sea Lantern, Redstone Lamp, #Froglights, Frosted Ice
+- Mineable/Shovel: Powder Snow
 
-#### worldgen
+#### World Generate
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
 - Ores has more discard chance on air exposure.
-- flat_level_generator_preset, world_preset is better
-- lower amethyst_geode, ancient_debris/diamond/gold/iron
-- less bamboo, fossil, coal/copper/diamond/gold/iron
-- higher ore redstone
-- more redstone/quartz
-- zombie village has no crops
-- decrease patch_dead_bush_badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913)
+- Flat level generator preset, world preset is improved.
+- Lower Amethyst geode, ancient debris/Diamond/Gold/Iron.
+- Less Bamboo, fossil, Coal/Copper/Diamond/Gold/Iron.
+- Higher ore redstone
+- more redstone/Quartz
+- Zombie village has no crops
+- Decrease patch Dead Bush badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913).
 
 ### Disables
 
-[Back to Menu](#menu)
+[Back to Menu](#feature-list)
 
-- Ores (Within Stone) smelting/blasting
-- String crafts White wool
-- mossy_cobblestone_from_vine and mossy_stone_bricks_from_vine
-- Map extending on crafting_table
-- stick_from_bamboo_item recipe
-- rabbit_stew_from_red_mushroom recipe
+- Ores (Within Stone) smelting/blasting.
+- String =Crafting Shaped> White Wool.
+- Mossy Cobblestone from Vine and Mossy Stone bricks from Vine. (Now Moss Block only)
+- Map extending on crafting table.
+- Stick from Bamboo item recipe. (Craft them into Bamboo Block and Bamboo Planks!)
+- Rabbit stew from Red Mushroom recipe.
 
 ## Other information
-
-[Back to Menu](#menu)
 
 ### Inspirations (Ideas from)
 
@@ -378,7 +384,7 @@ Husbandry:
 ### Update plans
 
 - Way to store experience
-- Sieve ? (I think only scaffolding like that, but needs to change texture because bamboo is not a very common item let us craft it.)
+- Sieve? (I think only scaffolding like that, but needs to change texture because Bamboo is not a very common item let us craft it.)
 
 ### The story of this project
 

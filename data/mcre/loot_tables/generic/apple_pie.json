@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:pumpkin_pie",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.mcre.apple_pie",
+                "fallback": "Apple Pie",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400002}"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "type": "minecraft:generic"
+}

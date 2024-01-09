@@ -1,1 +1,14 @@
-{"addition":{"item":"minecraft:ice"},"base":{"item":"minecraft:ice"},"category":"block","result":{"item":"minecraft:packed_ice"},"template":[],"type":"minecraft:smithing_transform"}
+{
+  "addition": {
+    "item": "minecraft:ice"
+  },
+  "base": {
+    "item": "minecraft:ice"
+  },
+  "category": "block",
+  "result": {
+    "item": "minecraft:packed_ice"
+  },
+  "template": [],
+  "type": "minecraft:smithing_transform"
+}

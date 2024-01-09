@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "apple_pie": {
+      "conditions": {
+        "recipe_id": "mcre:crafting_shapeless/apple_pie"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/rc/apple_pie",
+    "loot": [
+      "mcre:generic/apple_pie"
+    ]
+  }
+}
