@@ -19,10 +19,17 @@ A Large, balanced datapack that tweaks to vanilla and adds lots of features.
 ### Optional
 
 - [JEI](https://modrinth.com/mod/jei)/[REI](https://modrinth.com/mod/rei)/[EMI](https://modrinth.com/mod/emi)/[Polydex](https://modrinth.com/mod/polydex) mod for view recipes
+- [Grant All Recipes [Datapack]](https://modrinth.com/datapack/grant-all-recipes-datapack) for unlock recipes
 
 ### Embedded
 
 - [Better Hoes](https://modrinth.com/datapack/better-hoes) datapack
+
+## Compatibility
+
+- Vanilla
+- Forge
+- Fabric
 
 ## Feature list
 
@@ -344,12 +351,21 @@ Husbandry:
 
 - Ores has more discard chance on air exposure.
 - Flat level generator preset, world preset is improved.
-- Lower Amethyst geode, ancient debris/Diamond/Gold/Iron.
-- Less Bamboo, fossil, Coal/Copper/Diamond/Gold/Iron.
-- Higher ore redstone
-- more redstone/Quartz
-- Zombie village has no crops
-- Decrease patch Dead Bush badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913).
+
+Configured Feature
+
+- Less Fossil, Coal Ores, Copper Ores, Diamond Ores, Gold Ores, Iron Ores.
+- More Redstone Ores/Nether Quartz Ores
+
+Placed Feature
+
+- Higher Redstone Ores
+- Lower Amethyst Geode, Ancient Debris, Diamond Ores, Gold Ores, Iron Ores.
+- Decrease Dead Bush in Badlands for fix [MC-179913](https://bugs.mojang.com/projects/MC/issues/MC-179913).
+
+Processor List
+
+- Zombie Village has no crops
 
 ### Disables
 

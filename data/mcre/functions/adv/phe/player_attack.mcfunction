@@ -9,6 +9,6 @@ execute unless score time mcre..temp matches 1..11 run return 0
 
 
 execute store result storage mcre:data _.time int 1 run scoreboard players get time mcre..temp
-function dilib:presets/attack_cooldown/add with storage mcre:data _
+function mcre:presets/attack_cooldown/add with storage mcre:data _
 
 data remove storage mcre:data _

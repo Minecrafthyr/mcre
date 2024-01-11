@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "slow_fall": {
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:elytra"
+              ]
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "mcre:adv/t/slow_fall"
+  }
+}
