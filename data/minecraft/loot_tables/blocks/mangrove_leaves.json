@@ -21,11 +21,6 @@
                   "name": "minecraft:stick",
                   "type": "minecraft:item",
                   "weight": 3
-                },
-                {
-                  "name": "minecraft:air",
-                  "type": "minecraft:item",
-                  "weight": 2
                 }
               ],
               "conditions": [
@@ -54,6 +49,16 @@
                 },
                 {
                   "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "minecraft:table_bonus",
+                  "chances": [
+                    0.2,
+                    0.4,
+                    0.6,
+                    0.8
+                  ],
+                  "enchantment": "minecraft:fortune"
                 }
               ],
               "type": "minecraft:group"

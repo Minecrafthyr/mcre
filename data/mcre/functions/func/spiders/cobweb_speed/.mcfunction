@@ -1,0 +1,2 @@
+execute unless entity @s[tag=mcre.spiders..cobweb_speed] run return run execute if predicate mcre:spiders/cobweb run function mcre:func/spiders/cobweb_speed/add
+execute unless predicate mcre:spiders/cobweb run return run function mcre:func/spiders/cobweb_speed/remove

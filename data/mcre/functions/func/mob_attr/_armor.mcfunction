@@ -1,0 +1,2 @@
+execute if entity @s[type=#mcre:armor_2] run return run attribute @s minecraft:generic.armor base set 2
+execute if entity @s[type=#mcre:armor_4] run return run attribute @s minecraft:generic.armor base set 4

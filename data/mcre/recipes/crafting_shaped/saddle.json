@@ -1,1 +1,19 @@
-{"category":"misc","key":{"/":{"item":"minecraft:lead"},"L":{"item":"minecraft:leather"}},"pattern":["LLL","L/L"],"result":{"item":"minecraft:saddle"},"type":"minecraft:crafting_shaped"}
+{
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:lead"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "L/L"
+  ],
+  "result": {
+    "item": "minecraft:saddle"
+  },
+  "type": "minecraft:crafting_shaped"
+}

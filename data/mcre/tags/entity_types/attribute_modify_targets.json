@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:turtle",
+    "#dilib:allay_vex",
+    "minecraft:vindicator","#mcre:armor_2","#mcre:armor_4"
+  ]
+}

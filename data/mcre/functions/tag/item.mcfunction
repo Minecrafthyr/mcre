@@ -1,0 +1,1 @@
+execute if data storage dilib:data Item{id:"minecraft:player_head"} as @e[type=minecraft:item,distance=..8] run data merge entity @s {Age:-32768s,Health:200s}

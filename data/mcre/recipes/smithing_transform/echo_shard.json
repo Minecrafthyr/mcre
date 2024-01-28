@@ -1,1 +1,13 @@
-{"addition":{"item":"minecraft:sculk"},"base":{"item":"minecraft:amethyst_shard"},"result":{"item":"minecraft:echo_shard"},"template":[],"type":"minecraft:smithing_transform"}
+{
+  "addition": {
+    "item": "minecraft:sculk"
+  },
+  "base": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "item": "minecraft:echo_shard"
+  },
+  "template": [],
+  "type": "minecraft:smithing_transform"
+}

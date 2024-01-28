@@ -1,9 +1,9 @@
 advancement revoke @s only mcre:func/phe/player_attack
 
 execute store result score 0 mcre..temp run attribute @s generic.attack_speed get 100
+scoreboard players add 0 mcre..temp 1
 scoreboard players operation time mcre..temp = 1200 const
 scoreboard players operation time mcre..temp /= 0 mcre..temp
-scoreboard players add time mcre..temp 1
 execute if score time mcre..temp matches 11.. run scoreboard players set time mcre..temp 11
 execute unless score time mcre..temp matches 1..11 run return 0
 

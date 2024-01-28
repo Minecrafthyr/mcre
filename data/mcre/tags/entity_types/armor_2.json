@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:illusioner",
+    "minecraft:vindicator",
+    "minecraft:villager",
+    "minecraft:piglin"
+  ]
+}
